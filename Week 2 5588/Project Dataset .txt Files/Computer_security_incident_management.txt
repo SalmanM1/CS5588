@@ -1,0 +1,171 @@
+Computer security incident management
+In the fields of computer security and information technology, computer security incident management
+involves the monitoring and detection of security events on a computer or computer network, and the
+execution of proper responses to those events. Computer security incident management is a specialized
+form of incident management, the primary purpose of which is the development of a well understood and
+predictable response to damaging events and computer intrusions.[1]
+Incident management requires a process and a response team which follows this process. In the United
+States, This definition of computer security incident management follows the standards and definitions
+described in the National Incident Management System (NIMS). The incident coordinator manages the
+response to an emergency security incident. In a Natural Disaster or other event requiring response from
+Emergency services, the incident coordinator would act as a liaison to the emergency services incident
+manager.[2]
+An incident response plan (IRP) is a group of policies that dictate an organizations reaction to a cyber
+attack. Once a security breach has been identified, for example by network intrusion detection system
+(NIDS) or host-based intrusion detection system (HIDS) (if configured to do so), the plan is initiated.[3] It
+is important to note that there can be legal implications to a data breach. Knowing local and federal laws
+is critical.[4] Every plan is unique to the needs of the organization, and it can involve skill sets that are not
+part of an IT team.[5] For example, a lawyer may be included in the response plan to help navigate legal
+implications to a data breach.
+As mentioned above every plan is unique but most plans will include the following:[6]
+Good preparation includes the development of an incident response team (IRT).[7] Skills need to be used
+by this team would be, penetration testing, computer forensics, network security, etc.[8] This team should
+also keep track of trends in cybersecurity and modern attack strategies.[9] A training program for end
+users is important as well as most modern attack strategies target users on the network.[6]
+As part of the preparation phase in incident response plan should be developed and address the following:
+Roles and Responsibilities
+Lists the incident response team (IRT) members and their duties
+Communication protocols
+Training and awareness
+Logging policies and configurations
+Event status definitions and thresholds
+Playbooks and runbooks for common incident types
+Incident response plans
+Preparation
+
+Legal and compliance considerations[10]
+This part of the incident response plan identifies if there was a security event.[11] When an end user
+reports information or an admin notices irregularities, an investigation is launched. An incident log is a
+crucial part of this step. All of the members of the team should be updating this log to ensure that
+information flows as fast as possible.[12] If it has been identified that a security breach has occurred the
+next step should be activated.[13]
+In this phase, the IRT works to isolate the areas that the breach took place to limit the scope of the
+security event.[14] During this phase it is important to preserve information forensically so it can be
+analyzed later in the process.[15] Containment could be as simple as physically containing a server room
+or as complex as segmenting a network to not allow the spread of a virus.[16]
+This is where the threat that was identified is removed from the affected systems.[17] This could include
+deleting malicious files, terminating compromised accounts, or deleting other components.[18][19] Some
+events do not require this step, however it is important to fully understand the event before moving to this
+step.[20] This will help to ensure that the threat is completely removed.[16]
+This stage is where the systems are restored back to original operation.[21] This stage could include the
+recovery of data, changing user access information, or updating firewall rules or policies to prevent a
+breach in the future.[22][23] Without executing this step, the system could still be vulnerable to future
+security threats.[16]
+In this step information that has been gathered during this process is used to make future decisions on
+security.[24] This step is crucial to the ensure that future events are prevented. Using this information to
+further train admins is critical to the process.[25] This step can also be used to process information that is
+distributed from other entities who have experienced a security event.[26]
+Computer emergency response team
+Proactive cyber defence
+Cyber attribution
+Identification
+Containment
+Eradication
+Recovery
+Lessons learned
+See also
+
+1. "ISO 17799|ISO/IEC 17799:2005(E)" (http://www.iso.org). Information technology - Security
+techniques - Code of practice for information security management. ISO copyright office.
+2005-06-15. pp. 90–94.
+2. "NIMS - The Incident Command System" (https://web.archive.org/web/20070318154341/htt
+p://www.nimsonline.com/nims_3_04/incident_command_system.htm). National Incident
+Management System. Department of Homeland Security. 2004-03-01. Archived from the
+original on 2007-03-18. Retrieved 2007-04-08.
+3. Fowler, Kevvie (2016), "Developing a Computer Security Incident Response Plan" (https://d
+x.doi.org/10.1016/b978-0-12-803451-4.00003-4), Data Breach Preparation and Response,
+Elsevier, pp. 49–77, doi:10.1016/b978-0-12-803451-4.00003-4 (https://doi.org/10.1016%2Fb
+978-0-12-803451-4.00003-4), ISBN 978-0-12-803451-4, retrieved 2021-06-05
+4. Bisogni, Fabio (2016). "Proving Limits of State Data Breach Notification Laws: Is a Federal
+Law the Most Adequate Solution?" (https://doi.org/10.5325%2Fjinfopoli.6.2016.0154).
+Journal of Information Policy. 6: 154–205. doi:10.5325/jinfopoli.6.2016.0154 (https://doi.org/
+10.5325%2Fjinfopoli.6.2016.0154). JSTOR 10.5325/jinfopoli.6.2016.0154 (https://www.jstor.
+org/stable/10.5325/jinfopoli.6.2016.0154).
+5. "Understanding Plan for Every Part" (https://dx.doi.org/10.1201/b10336-5), Turbo Flow,
+Productivity Press, pp. 21–30, 2017-07-27, doi:10.1201/b10336-5 (https://doi.org/10.1201%
+2Fb10336-5), ISBN 978-0-429-24603-6, retrieved 2021-06-05
+6. Wills, Leonard (27 February 2019). "A Brief Guide to Handling a Cyber Incident" (https://ww
+w.americanbar.org/groups/litigation/committees/minority-trial-lawyer/practice/2019/a-brief-gu
+ide-to-handling-a-cyber-incident/). American Bar Association.
+7. Johnson, Leighton R. (2014), "Part 1. Incident Response Team" (https://dx.doi.org/10.1016/b
+978-1-59749-996-5.00038-8), Computer Incident Response and Forensics Team
+Management, Elsevier, pp. 17–19, doi:10.1016/b978-1-59749-996-5.00038-8 (https://doi.or
+g/10.1016%2Fb978-1-59749-996-5.00038-8), ISBN 978-1-59749-996-5, retrieved
+2021-06-05
+8. "Computer Incident Response and Forensics Team Management" (https://dx.doi.org/10.101
+6/s1353-4858(14)70018-2). Network Security. 2014 (2): 4. February 2014.
+doi:10.1016/s1353-4858(14)70018-2 (https://doi.org/10.1016%2Fs1353-4858%2814%2970
+018-2). ISSN 1353-4858 (https://search.worldcat.org/issn/1353-4858).
+9. "Cybersecurity Threat Landscape and Future Trends" (https://dx.doi.org/10.1201/b18335-1
+2), Cybersecurity, Routledge, pp. 304–343, 2015-04-16, doi:10.1201/b18335-12 (https://doi.
+org/10.1201%2Fb18335-12), ISBN 978-0-429-25639-4, retrieved 2021-06-05
+10. Cichonski, Paul; Millar, Thomas; Grance, Tim; Scarfone, Karen (2012-08-06). Computer
+Security Incident Handling Guide (https://csrc.nist.gov/pubs/sp/800/61/r2/final) (Report).
+National Institute of Standards and Technology.
+11. Information technology. Security techniques. Information security incident management (http
+s://dx.doi.org/10.3403/30268878u), BSI British Standards, doi:10.3403/30268878u (https://d
+oi.org/10.3403%2F30268878u), retrieved 2021-06-05
+12. Turner, Tim (2011-09-07), "Our Beginning: Team Members Who Began the Success Story"
+(https://dx.doi.org/10.4324/9781466500020-2), One Team on All Levels, Productivity Press,
+pp. 9–36, doi:10.4324/9781466500020-2 (https://doi.org/10.4324%2F9781466500020-2),
+ISBN 978-0-429-25314-0, retrieved 2021-06-05
+13. Erlanger, Leon (2002). Defensive Strategies. PC Magazine. p. 70.
+References
+
+14. "of Belgrade's main street. The event took place in absolute" (https://dx.doi.org/10.4324/978
+1315005140-28), Radical Street Performance, Routledge, pp. 81–83, 2013-11-05,
+doi:10.4324/9781315005140-28 (https://doi.org/10.4324%2F9781315005140-28),
+ISBN 978-1-315-00514-0, retrieved 2021-06-05
+15. White, Mark D. (2013). "Why Choice Matters So Much and What Can be Done to Preserve
+It". The Manipulation of Choice. Palgrave Macmillan. pp. 127–150.
+doi:10.1057/9781137313577_7 (https://doi.org/10.1057%2F9781137313577_7). ISBN 978-
+1-137-31357-7.
+16. "Computer Security Incident Handling Guide" (https://nvlpubs.nist.gov/nistpubs/SpecialPubli
+cations/NIST.SP.800-61r2.pdf) (PDF). Nist.gov. 2012.
+17. Borgström, Pernilla; Strengbom, Joachim; Viketoft, Maria; Bommarco, Riccardo (4 April
+2016). "Table S3: Results from linear-mixed models where non-signficant [sic] parameters
+have not been removed" (https://doi.org/10.7717%2Fpeerj.1867%2Fsupp-3). PeerJ. 4:
+e1867. doi:10.7717/peerj.1867/supp-3 (https://doi.org/10.7717%2Fpeerj.1867%2Fsupp-3).
+18. Penfold, David (2000), "Selecting, Copying, Moving and Deleting Files and Directories",
+ECDL Module 2: Using the Computer and Managing Files, London: Springer London,
+pp. 86–94, doi:10.1007/978-1-4471-0491-9_6 (https://doi.org/10.1007%2F978-1-4471-0491-
+9_6) (inactive 11 July 2025), ISBN 978-1-85233-443-7
+19. Gumus, Onur (2018). ASP. NET Core 2 Fundamentals : Build Cross-Platform Apps and
+Dynamic Web Services with This Server-side Web Application Framework. Packt Publishing
+Ltd. ISBN 978-1-78953-355-2. OCLC 1051139482 (https://search.worldcat.org/oclc/105113
+9482).
+20. "Do the Students Understand What They Are Learning?" (https://dx.doi.org/10.4324/978020
+3416907-8), Trouble-shooting Your Teaching, Routledge, pp. 36–40, 2005-02-25,
+doi:10.4324/9780203416907-8 (https://doi.org/10.4324%2F9780203416907-8), ISBN 978-0-
+203-41690-7, retrieved 2021-06-05
+21. Enticknap, Leo (2013), "Where Are Films Restored, Where Do They Come From and Who
+Restores Them?", Film Restoration, Palgrave Macmillan, pp. 45–70,
+doi:10.1057/9781137328724_3 (https://doi.org/10.1057%2F9781137328724_3), ISBN 978-
+1-137-32872-4
+22. Liao, Qi; Li, Zhen; Striegel, Aaron (2011-01-24). "Could firewall rules be public - a game
+theoretical perspective" (https://dx.doi.org/10.1002/sec.307). Security and Communication
+Networks. 5 (2): 197–210. doi:10.1002/sec.307 (https://doi.org/10.1002%2Fsec.307).
+ISSN 1939-0114 (https://search.worldcat.org/issn/1939-0114).
+23. Boeckman, Philip; Greenwald, David J.; Von Bismarck, Nilufer (2013). Twelfth annual
+institute on securities regulation in Europe : overcoming deal-making challenges in the
+current markets. Practising Law Institute. ISBN 978-1-4024-1932-4. OCLC 825824220 (http
+s://search.worldcat.org/oclc/825824220).
+24. "Figure 1.8. Spending of social security has been growing, while self-financing has been
+falling" (https://dx.doi.org/10.1787/888932459242). doi:10.1787/888932459242 (https://doi.o
+rg/10.1787%2F888932459242). Retrieved 2021-06-05.
+25. "Information Governance: The Crucial First Step" (https://dx.doi.org/10.1002/978111920490
+9.ch2), Safeguarding Critical E-Documents, Hoboken, NJ, US: John Wiley & Sons, Inc.,
+pp. 13–24, 2015-09-19, doi:10.1002/9781119204909.ch2 (https://doi.org/10.1002%2F97811
+19204909.ch2), ISBN 978-1-119-20490-9, retrieved 2021-06-05
+26. He, Ying (December 1, 2017). "Challenges of Information Security Incident Learning: An
+Industrial Case Study in a Chinese Healthcare Organization" (http://eprints.gla.ac.uk/13494
+4/7/134944.pdf) (PDF). Informatics for Health and Social Care. 42 (4): 394–395.
+doi:10.1080/17538157.2016.1255629 (https://doi.org/10.1080%2F17538157.2016.125562
+9). PMID 28068150 (https://pubmed.ncbi.nlm.nih.gov/28068150). S2CID 20139345 (https://
+api.semanticscholar.org/CorpusID:20139345).
+
+Handbook for Computer Security Incident Response Teams (CSIRTs)
+http://www.sei.cmu.edu/library/abstracts/reports/03hb002.cfm
+Retrieved from "https://en.wikipedia.org/w/index.php?
+title=Computer_security_incident_management&oldid=1334059252"
+Further reading

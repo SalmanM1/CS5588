@@ -1,0 +1,1132 @@
+Typical components of phishing emails
+1 Fraudulent but similar domainname for sender
+2 Incorrect branding
+3 Generic information
+4 Spelling errors
+5 Sense of urgency
+6 Fake link
+7 Incorrect name
+Phishing
+Phishing is a form of social
+engineering and a scam where
+attackers deceive people into
+revealing sensitive
+information[1] or installing
+malware such as viruses,
+worms, adware, or ransomware.
+Phishing attacks have become
+increasingly sophisticated and
+often transparently mirror the
+site being targeted, allowing the
+attacker to observe everything
+while the victim navigates the
+site, and transverses any
+additional security boundaries
+with the victim.[2] As of 2020,
+it is the most common type of
+cybercrime, with the Federal
+Bureau of Investigation's
+Internet Crime Complaint
+Center reporting more incidents
+of phishing than any other type
+of cybercrime.[3]
+Modern phishing campaigns increasingly target multi-factor authentication (MFA) systems, not just
+passwords. Attackers use spoofed login pages and real-time relay tools to capture both credentials and
+one-time passcodes. In some cases, phishing kits are designed to bypass two-factor authentication by
+immediately forwarding stolen credentials to the attacker's server, enabling instant access. A 2024 blog
+post by Microsoft Entra highlighted the rise of adversary-in-the-middle (AiTM) phishing attacks, which
+intercept session tokens and allow attackers to authenticate as the victim.[4]
+The term "phishing" was first recorded in 1995 in the cracking toolkit AOHell, but may have been used
+earlier in the hacker magazine 2600.[5][6][7] It is a variation of fishing and refers to the use of lures to
+"fish" for sensitive information.[6][8][9]
+Measures to prevent or reduce the impact of phishing attacks include legislation, user education, public
+awareness, and technical security measures.[10] The importance of phishing awareness has increased in
+both personal and professional settings, with phishing attacks among businesses rising from 72% in 2017
+to 86% in 2020,[11] already rising to 94% in 2023.[12]
+Phishing techniques and vectors include email spam, vishing (voice phishing), targeted phishing (spear
+phishing, whaling), smishing (SMS), quishing (QR code), cross-site scripting, and MiTM 2FA attacks.
+1
+2
+3 4
+5
+6
+7
+
+Phishing attacks, often delivered via email spam, attempt to trick individuals into giving away sensitive
+information or login credentials. Most attacks are "bulk attacks" that are not targeted and are instead sent
+in bulk to a wide audience.[13] The goal of the attacker can vary, with common targets including financial
+institutions, email and cloud productivity providers, and streaming services.[14] The stolen information or
+access may be used to steal money, install malware, or spear phish others within the target
+organization.[15] Compromised streaming service accounts may also be sold on darknet markets.[16]
+This type of social engineering attack can involve sending fraudulent emails or messages that appear to
+be from a trusted source, such as a bank or government agency. These messages typically redirect to a
+fake login page where users are prompted to enter their credentials.
+Spear phishing is a targeted phishing attack that uses personalized messaging, especially e‑mails,[17] to
+trick a specific individual or organization into believing they are legitimate. It often utilizes personal
+information about the target to increase the chances of success.[18][19][20][21] These attacks often target
+executives or those in financial departments with access to sensitive financial data and services.
+Accountancy and audit firms are particularly vulnerable to spear phishing due to the value of the
+information their employees have access to.[22]
+The Russian government-run Threat Group-4127 (Fancy Bear; GRU Unit 26165) targeted Hillary
+Clinton's 2016 presidential campaign with spear phishing attacks on over 1,800 Google accounts, using
+the  accounts-google.com  domain to threaten targeted users.[23][24]
+A study on spear phishing susceptibility among different age groups found that 43% of youth aged 18–
+25 years and 58% of older users clicked on simulated phishing links in daily e‑mails over 21 days. Older
+women had the highest susceptibility, while susceptibility in young users declined during the study, but
+remained stable among older users.[25]
+Voice over IP (VoIP) is used in vishing or voice phishing attacks,[26] where attackers make automated
+phone calls to large numbers of people, often using text-to-speech synthesizers, claiming fraudulent
+activity on their accounts. The attackers spoof the calling phone number to appear as if it is coming from
+a legitimate bank or institution. The victim is then prompted to enter sensitive information or connected
+to a live person who uses social engineering tactics to obtain information.[26] Vishing takes advantage of
+the public's lower awareness and trust in voice telephony compared to email phishing.[27]
+Types
+Email phishing
+Spear phishing
+Voice phishing (Vishing)
+SMS phishing (smishing)
+
+A typical style of SMS phishing message
+SMS phishing[28] or smishing[29][30] is a type of phishing
+attack that uses text messages from a cell phone or
+smartphone to deliver a bait message.[31] The victim is
+usually asked to click a link, call a phone number, or contact
+an email address provided by the attacker. They may then be
+asked to provide private information, such as login credentials
+for other websites.
+The difficulty in identifying illegitimate links can be
+compounded on mobile devices due to the limited display of
+URLs in mobile browsers.[32]
+Smishing can be just as effective as email phishing, as many
+smartphones have fast internet connectivity. Smishing messages may also come from unusual phone
+numbers.[33]
+Page hijacking involves redirecting users to malicious websites or exploit kits through the compromise of
+legitimate web pages, often using cross site scripting. Hackers may insert exploit kits such as MPack into
+compromised websites to exploit legitimate users visiting the server. Page hijacking can also involve the
+insertion of malicious inline frames, allowing exploit kits to load. This tactic is often used in conjunction
+with watering hole attacks on corporate targets.[34]
+In "quishing" (QR code phishing), scammers exploit the convenience of QR codes to trick users into
+giving up sensitive data, by scanning a code containing an embedded malicious web site link. Unlike
+traditional phishing, which relies on deceptive emails or websites, quishing uses QR codes to bypass
+email filters[35][36] and increase the likelihood that victims will fall for the scam, as people tend to trust
+QR codes and may not scrutinize them as carefully as a URL or email link. The bogus codes may be sent
+by email, social media, or in some cases hard copy stickers are placed over legitimate QR codes on such
+things as advertising posters and car park notices.[37][36] When victims scan the QR code with their phone
+or device, they are redirected to a fake website designed to steal personal information, login credentials,
+or financial details.[35]
+As QR codes become more widely used for things like payments, event check-ins, and product
+information, quishing is emerging as a significant concern for digital security. Users are advised to
+exercise caution when scanning unfamiliar QR codes and ensure they are from trusted sources, although
+the UK's National Cyber Security Centre rates the risk as lower than other types of lure.[38]
+Traditional phishing attacks are typically limited to capturing user credentials directly inputted into
+fraudulent websites. However, the advent of Man-in-the-Middle (MitM) phishing techniques has
+significantly advanced the sophistication of these attacks, enabling cybercriminals to bypass two-factor
+authentication (2FA) mechanisms during a user's active session on a web service. MitM phishing attacks
+employ intermediary tools that intercept communication between the user and the legitimate service.
+Page hijacking
+QR code phishing (quishing)
+Man-in-the-Middle phishing
+
+Evilginx, originally created as an open-source tool for penetration testing and ethical hacking, has been
+repurposed by cybercriminals for MitM attacks. Evilginx works like a middleman, passing information
+between the victim and the real website without saving passwords or login codes. This makes it harder for
+security systems to detect, since they usually look for phishing sites that store stolen data. By grabbing
+login tokens and session cookies instantly, attackers can break into accounts and use them just like the
+real user, for as long as the session stays active.
+Attackers employ various methods, including phishing emails, social engineering tactics, or distributing
+malicious links via social media platforms. Once the victim interacts with the counterfeit site, the MitM
+tool intercepts the authentication process, effectively bypassing 2FA protections.[39]
+Phishing attacks often involve creating fake links that appear to be from a legitimate organization.[40]
+These links may use misspelled URLs or subdomains to deceive the user. In the following example URL,
+http://www.yourbank.example.com/, it can appear to the untrained eye as though the URL
+will take the user to the example section of the yourbank website; this URL points to the "yourbank" (i.e.
+phishing subdomain) section of the example website (fraudster's domain name). Another tactic is to make
+the displayed text for a link appear trustworthy, while the actual link goes to the phisher's site. To check
+the destination of a link, many email clients and web browsers will show the URL in the status bar when
+the mouse is hovering over it. However, some phishers may be able to bypass this security measure.[41]
+Internationalized domain names (IDNs) can be exploited via IDN spoofing[42] or homograph attacks[43]
+to allow attackers to create fake websites with visually identical addresses to legitimate ones. These
+attacks have been used by phishers to disguise malicious URLs using open URL redirectors on trusted
+websites.[44][45][46] An example of this is in http://www.exаmple.com/, where the third character
+is not the Latin letter 'a', but instead the Cyrillic character 'а'. When the victim clicks on the link, unaware
+that the third character is actually the Cyrillic letter 'а', they get redirected to the malicious site
+http://www.xn--exmple-4nf.com/ Even digital certificates, such as SSL, may not protect
+against these attacks as phishers can purchase valid certificates and alter content to mimic genuine
+websites or host phishing sites without SSL.[47]
+Phishing often uses social engineering techniques to trick users into performing actions such as clicking a
+link or opening an attachment, or revealing sensitive information. It often involves pretending to be a
+trusted entity and creating a sense of urgency,[48] like threatening to close or seize a victim's bank or
+insurance account.[49]
+An alternative technique to impersonation-based phishing is the use of fake news articles to trick victims
+into clicking on a malicious link. These links often lead to fake websites that appear legitimate,[11] but are
+actually run by attackers who may try to install malware or present fake "virus" notifications to the
+victim.[50]
+Techniques
+Link manipulation
+Social engineering
+
+A fake virus notification
+Early phishing techniques can be traced back to the 1990s,
+when black hat hackers and the warez community used AOL
+to steal credit card information and commit other online
+crimes. The term "phishing" is said to have been coined by
+Khan C. Smith, a well-known spammer and hacker,[51][a] and
+its first recorded mention was found in the hacking tool AOHell, which was released in 1994. AOHell
+allowed hackers to impersonate AOL staff and send instant messages to victims asking them to reveal
+their passwords.[55][56] In response, AOL implemented measures to prevent phishing and eventually shut
+down the warez scene on their platform.[57][58]
+In the 2000s, phishing attacks became more organized and targeted. The first known direct attempt
+against a payment system, E-gold, occurred in June 2001, and shortly after the September 11 attacks, a
+"post-9/11 id check" phishing attack followed.[59] The first known phishing attack against a retail bank
+was reported in September 2003.[60] Between May 2004 and May 2005, approximately 1.2 million
+computer users in the United States suffered losses caused by phishing, totaling approximately
+US$929 million.[61] Phishing was recognized as a fully organized part of the black market, and
+specializations emerged on a global scale that provided phishing software for payment, which were
+assembled and implemented into phishing campaigns by organized gangs.[62][63] The United Kingdom
+banking sector suffered from phishing attacks, with losses from web banking fraud almost doubling in
+2005 compared to 2004.[64][65] In 2006, almost half of phishing thefts were committed by groups
+operating through the Russian Business Network based in St. Petersburg.[66] Email scams posing as the
+Internal Revenue Service were also used to steal sensitive data from U.S. taxpayers.[67] Social
+networking sites are a prime target of phishing, since the personal details in such sites can be used in
+identity theft;[68] In 2007, 3.6 million adults lost US$3.2 billion due to phishing attacks.[69] The Anti-
+Phishing Working Group reported receiving 115,370 phishing email reports from consumers with US and
+China hosting more than 25% of the phishing pages each in the third quarter of 2009.[70]
+Phishing in the 2010s saw a significant increase in the number of attacks. In 2011, the master keys for
+RSA SecurID security tokens were stolen through a phishing attack.[71][72] Chinese phishing campaigns
+also targeted high-ranking officials in the US and South Korean governments and military, as well as
+Chinese political activists.[73][74] According to Ghosh, phishing attacks increased from 187,203 in 2010
+to 445,004 in 2012. In August 2013, Outbrain suffered a spear-phishing attack,[75] and in November
+2013, 110 million customer and credit card records were stolen from Target customers through a phished
+subcontractor account.[76] CEO and IT security staff subsequently fired.[77] In August 2014, iCloud leaks
+of celebrity photos were based on phishing e-mails sent to victims that looked like they came from Apple
+or Google.[78] In November 2014, phishing attacks on ICANN gained administrative access to the
+Centralized Zone Data System; also gained was data about users in the system - and access to ICANN's
+History
+Early history
+2000s
+2010s
+
+public Governmental Advisory Committee wiki, blog, and whois information portal.[79] Fancy Bear was
+linked to spear-phishing attacks against the Pentagon email system in August 2015,[80][81] and the group
+used a zero-day exploit of Java in a spear-phishing attack on the White House and NATO.[82][83] Fancy
+Bear carried out spear phishing attacks on email addresses associated with the Democratic National
+Committee in the first quarter of 2016.[84][85] In August 2016, members of the Bundestag and political
+parties such as Linken-faction leader Sahra Wagenknecht, Junge Union, and the CDU of Saarland were
+targeted by spear-phishing attacks suspected to be carried out by Fancy Bear. In August 2016, the World
+Anti-Doping Agency reported the receipt of phishing emails sent to users of its database claiming to be
+official WADA, but consistent with the Russian hacking group Fancy Bear.[86][87][88] In 2017, 76% of
+organizations experienced phishing attacks, with nearly half of the information security professionals
+surveyed reporting an increase from 2016. In the first half of 2017, businesses and residents of Qatar
+were hit with over 93,570 phishing events in a three-month span.[89] In August 2017, customers of
+Amazon faced the Amazon Prime Day phishing attack, when hackers sent out seemingly legitimate deals
+to customers of Amazon. When Amazon's customers attempted to make purchases using the "deals", the
+transaction would not be completed, prompting the retailer's customers to input data that could be
+compromised and stolen.[90] In 2018, the company block.one, which developed the EOS.IO blockchain,
+was attacked by a phishing group who sent phishing emails to all customers aimed at intercepting the
+user's cryptocurrency wallet key, and a later attack targeted airdrop tokens.[91]
+Phishing attacks have evolved in the 2020s to include elements of social engineering, as demonstrated by
+the July 15, 2020, Twitter breach. In this case, a 17-year-old hacker and accomplices set up a fake website
+resembling Twitter's internal VPN provider used by remote working employees. Posing as helpdesk staff,
+they called multiple Twitter employees, directing them to submit their credentials to the fake VPN
+website.[92] Using the details supplied by the unsuspecting employees, they were able to seize control of
+several high-profile user accounts, including those of Barack Obama, Elon Musk, Joe Biden, and Apple
+Inc.'s company account. The hackers then sent messages to Twitter followers soliciting Bitcoin,
+promising to double the transaction value in return. The hackers collected 12.86 BTC (about $117,000 at
+the time).[93] In the 2020s, phishing as a service (PhaaS) platforms like Darcula allow attackers to easily
+fake trusted websites.[94]
+There are anti-phishing websites which publish exact messages that have been recently circulating the
+internet, such as FraudWatch International and Millersmiles. Such sites often provide specific details
+about the particular messages.[95][96]
+As recently as 2007, the adoption of anti-phishing strategies by businesses needing to protect personal
+and financial information was low.[97] There are several different techniques to combat phishing,
+including legislation and technology created specifically to protect against phishing. These techniques
+include steps that can be taken by individuals, as well as by organizations. Phone, web site, and email
+phishing can now be reported to authorities, as described below.
+2020s
+Anti-phishing
+
+Frame of an animation by the U.S.
+Federal Trade Commission intended to
+educate citizens about phishing tactics
+Effective phishing education, including conceptual
+knowledge[98] and feedback,[99][100] is an important part of
+any organization's anti-phishing strategy. While there is
+limited data on the effectiveness of education in reducing
+susceptibility to phishing,[101] much information on the threat
+is available online.[49]
+Simulated phishing campaigns, in which organizations test
+their employees' training by sending fake phishing emails, are
+commonly used to assess their effectiveness. One example is
+a study by the National Library of Medicine, in which an
+organization received 858,200 emails during a 1-month
+testing period, with 139,400 (16%) being marketing and
+18,871 (2%) being identified as potential threats. These
+campaigns are often used in the healthcare industry, as healthcare data is a valuable target for hackers.
+These campaigns are just one of the ways that organizations are working to combat phishing.[102]
+Nearly all legitimate e-mail messages from companies to their customers contain an item of information
+that is not readily available to phishers. Some companies, for example PayPal, always address their
+customers by their username in emails, so if an email addresses the recipient in a generic fashion ("Dear
+PayPal customer") it is likely to be an attempt at phishing.[103] Furthermore, PayPal offers various
+methods to determine spoof emails and advises users to forward suspicious emails to their
+spoof@PayPal.com domain to investigate and warn other customers. However it is unsafe to assume that
+the presence of personal information alone guarantees that a message is legitimate,[104] and some studies
+have shown that the presence of personal information does not significantly affect the success rate of
+phishing attacks;[105] which suggests that most people do not pay attention to such details.
+Emails from banks and credit card companies often include partial account numbers, but research has
+shown that people tend to not differentiate between the first and last digits.[106]
+A study on phishing attacks in game environments found that educational games can effectively educate
+players against information disclosures and can increase awareness on phishing risk thus mitigating
+risks.[107]
+The Anti-Phishing Working Group, one of the largest anti-phishing organizations in the world, produces
+regular report on trends in phishing attacks.[108]
+A wide range of technical approaches are available to prevent phishing attacks reaching users or to
+prevent them from successfully capturing sensitive information.
+Specialized spam filters can reduce the number of phishing emails that reach their addressees' inboxes.
+These filters use a number of techniques including machine learning[109] and natural language processing
+approaches to classify phishing emails,[110][111] and reject email with forged addresses.[112]
+User training
+Technical approaches
+Filtering out phishing mail
+
+Screenshot of Firefox 2.0.0.1 Phishing
+suspicious site warning
+Another popular approach to fighting phishing is to maintain
+a list of known phishing sites and to check websites against
+the list. One such service is the Safe Browsing service.[113]
+Web browsers such as Google Chrome, Internet Explorer 7,
+Mozilla Firefox 2.0, Safari 3.2, and Opera all contain this
+type of anti-phishing measure.[114][115][116][117][118] Firefox 2
+used Google anti-phishing software. Opera 9.1 uses live
+blacklists from Phishtank, cyscon and GeoTrust, as well as
+live whitelists from GeoTrust. Some implementations of this
+approach send the visited URLs to a central service to be
+checked, which has raised concerns about privacy.[119]
+According to a report by Mozilla in late 2006, Firefox 2 was
+found to be more effective than Internet Explorer 7 at
+detecting fraudulent sites in a study by an independent
+software testing company.[120]
+An approach introduced in mid-2006 involves switching to a special DNS service that filters out known
+phishing domains.[121]
+To mitigate the problem of phishing sites impersonating a victim site by embedding its images (such as
+logos), several site owners have altered the images to send a message to the visitor that a site may be
+fraudulent. The image may be moved to a new filename and the original permanently replaced, or a
+server can detect that the image was not requested as part of normal browsing, and instead send a warning
+image.[122][123]
+The Bank of America website[124][125] was one of several that asked users to select a personal image
+(marketed as SiteKey) and displayed this user-selected image with any forms that request a password.
+Users of the bank's online services were instructed to enter a password only when they saw the image
+they selected. The bank has since discontinued the use of SiteKey. Several studies suggest that few users
+refrain from entering their passwords when images are absent.[126][127] In addition, this feature (like other
+forms of two-factor authentication) is susceptible to other attacks, such as those suffered by Scandinavian
+bank Nordea in late 2005,[128] and Citibank in 2006.[129]
+A similar system, in which an automatically generated "Identity Cue" consisting of a colored word within
+a colored box is displayed to each website user, is in use at other financial institutions.[130]
+Security skins[131][132] are a related technique that involves overlaying a user-selected image onto the
+login form as a visual cue that the form is legitimate. Unlike the website-based image schemes, however,
+the image itself is shared only between the user and the browser, and not between the user and the
+website. The scheme also relies on a mutual authentication protocol, which makes it less vulnerable to
+attacks that affect user-only authentication schemes.
+Still another technique relies on a dynamic grid of images that is different for each login attempt. The
+user must identify the pictures that fit their pre-chosen categories (such as dogs, cars and flowers). Only
+after they have correctly identified the pictures that fit their categories are they allowed to enter their
+Browsers alerting users to fraudulent websites
+Augmenting password logins
+
+Video instruction by the US Federal
+Trade Commission on how to file a
+complaint with the Federal Trade
+Commission
+alphanumeric password to complete the login. Unlike the static images used on the Bank of America
+website, a dynamic image-based authentication method creates a one-time passcode for the login,
+requires active participation from the user, and is very difficult for a phishing website to correctly
+replicate because it would need to display a different grid of randomly generated images that includes the
+user's secret categories.[133]
+Several companies offer banks and other organizations likely to suffer from phishing scams round-the-
+clock services to monitor, analyze and assist in shutting down phishing websites.[134] Automated
+detection of phishing content is still below accepted levels for direct action, with content-based analysis
+reaching between 80% and 90% of success[135] so most of the tools include manual steps to certify the
+detection and authorize the response.[136] Individuals can contribute by reporting phishing to both
+volunteer and industry groups,[137] such as cyscon or PhishTank.[138] Phishing web pages and emails can
+be reported to Google.[139][140]
+Organizations can implement two factor or multi-factor authentication (MFA), which requires a user to
+use at least 2 factors when logging in. (For example, a user must both present a smart card and a
+password). This mitigates some risk, in the event of a successful phishing attack, the stolen password on
+its own cannot be reused to further breach the protected system. However, there are several attack
+methods which can defeat many of the typical systems.[141] MFA schemes such as WebAuthn address this
+issue by design.
+On January 26, 2004, the U.S. Federal Trade Commission
+filed the first phising lawsuit, against a Californian teenager
+suspected of creating a webpage mimicking America Online
+and stealing credit card information.[142] Other countries have
+followed this lead by tracing and arresting phishers. A
+phishing kingpin, Valdir Paulo de Almeida, was arrested in
+Brazil for leading one of the largest phishing crime rings,
+which in two years stole between US$18 million and
+US$37 million.[143] UK authorities jailed two men in June
+2005 for their role in a phishing scam,[144] in a case connected
+to the U.S. Secret Service Operation Firewall, which targeted
+notorious "carder" websites.[145] In 2006, Japanese police
+arrested eight people for creating fake Yahoo Japan websites, netting themselves ¥100 million
+(US$870,000)[146] and the FBI detained a gang of sixteen in the U.S. and Europe in Operation
+Cardkeeper.[147]
+Senator Patrick Leahy introduced the Anti-Phishing Act of 2005 to Congress in the United States on
+March 1, 2005. This bill aimed to impose fines of up to $250,000 and prison sentences of up to five years
+on criminals who used fake websites and emails to defraud consumers.[148] In the UK, the Fraud Act
+Monitoring and takedown
+Multi-factor authentication
+Legal responses
+0:00
+
+
+2006[149] introduced a general offense of fraud punishable by up to ten years in prison and prohibited the
+development or possession of phishing kits with the intention of committing fraud.[150]
+Companies have also joined the effort to crack down on phishing. On March 31, 2005, Microsoft filed
+117 federal lawsuits in the U.S. District Court for the Western District of Washington. The lawsuits
+accuse "John Doe" defendants of obtaining passwords and confidential information. March 2005 also saw
+a partnership between Microsoft and the Australian government teaching law enforcement officials how
+to combat various cyber crimes, including phishing.[151] Microsoft announced a planned further 100
+lawsuits outside the U.S. in March 2006,[152] followed by the commencement, as of November 2006, of
+129 lawsuits mixing criminal and civil actions.[153] AOL reinforced its efforts against phishing[154] in
+early 2006 with three lawsuits[155] seeking a total of US$18 million under the 2005 amendments to the
+Virginia Computer Crimes Act,[156][157] and Earthlink has joined in by helping to identify six men
+subsequently charged with phishing fraud in Connecticut.[158]
+In January 2007, Jeffrey Brett Goodin of California became the first defendant convicted by a jury under
+the provisions of the CAN-SPAM Act of 2003. He was found guilty of sending thousands of emails to
+AOL users, while posing as the company's billing department, which prompted customers to submit
+personal and credit card information. Facing a possible 101 years in prison for the CAN-SPAM violation
+and ten other counts including wire fraud, the unauthorized use of credit cards, and the misuse of AOL's
+trademark, he was sentenced to serve 70 months. Goodin had been in custody since failing to appear for
+an earlier court hearing and began serving his prison term immediately.[159][160][161][162]
+2016–2021 literary phishing thefts
+Law portal
+Anti-phishing software
+Brandjacking – Assuming the online identity of another entity
+Clickjacking
+In-session phishing – Type of phishing attack
+Internet fraud – Fraud or deception using the Internet
+Trojan Horse
+Typosquatting – Form of cybersquatting which relies on mistakes when inputting a website
+address
+a. The spelling was likely inspired by the slang term "phreaking", which refers to an earlier
+form of hacking involving telecommunications tampering and exploitation.[52][53][54]
+Notable incidents
+See also
+Notes
+
+1. Jansson, K.; von Solms, R. (2011-11-09). "Phishing for phishing awareness" (http://www.tan
+dfonline.com/doi/abs/10.1080/0144929X.2011.632650). Behaviour & Information
+Technology. 32 (6): 584–593. doi:10.1080/0144929X.2011.632650 (https://doi.org/10.108
+0%2F0144929X.2011.632650). ISSN 0144-929X (https://search.worldcat.org/issn/0144-929
+X). S2CID 5472217 (https://api.semanticscholar.org/CorpusID:5472217).
+2. Ramzan, Zulfikar (2010). "Phishing attacks and countermeasures" (https://books.google.co
+m/books?id=I-9P1EkTkigC&pg=PA433). In Stamp, Mark; Stavroulakis, Peter (eds.).
+Handbook of Information and Communication Security. Springer. ISBN 978-3-642-04117-4.
+3. "Internet Crime Report 2020" (https://www.ic3.gov/Media/PDF/AnnualReport/2020_IC3Repo
+rt.pdf) (PDF). FBI Internet Crime Complaint Center. U.S. Federal Bureau of Investigation.
+Retrieved 21 March 2021.
+4. "Defeating Adversary-in-the-Middle phishing attacks" (https://techcommunity.microsoft.com/
+blog/microsoft-entra-blog/defeating-adversary-in-the-middle-phishing-attacks/1751777).
+Microsoft Tech Community. Microsoft. 18 November 2024. Retrieved 14 August 2025.
+5. Ollmann, Gunter. "The Phishing Guide: Understanding and Preventing Phishing Attacks" (htt
+p://www.technicalinfo.net/papers/Phishing.html). Technical Info. Archived (https://archive.tod
+ay/20120629023934/http://www.technicalinfo.net/papers/Phishing.html) from the original on
+2012-06-29. Retrieved 2006-07-10.
+6. Wright, A; Aaron, S; Bates, DW (October 2016). "The Big Phish: Cyberattacks Against U.S.
+Healthcare Systems" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5023604). Journal of
+General Internal Medicine. 31 (10): 1115–8. doi:10.1007/s11606-016-3741-z (https://doi.org/
+10.1007%2Fs11606-016-3741-z). ISSN 0884-8734 (https://search.worldcat.org/issn/0884-8
+734). PMC 5023604 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5023604).
+PMID 27177913 (https://pubmed.ncbi.nlm.nih.gov/27177913).
+7. Stonebraker, Steve (January 2022). "AOL Underground" (https://anchor.fm/aolunderground/
+episodes/Da-Chronic--Creator-of-AOHell-and-Automated-Phishing-e1ic74b/a-a7tfsc3).
+aolunderground.com (Podcast). Anchor.fm.
+8. Mitchell, Anthony (July 12, 2005). "A Leet Primer" (http://www.technewsworld.com/story/476
+07.html). TechNewsWorld. Archived (https://web.archive.org/web/20190417170801/https://w
+ww.technewsworld.com/story/47607.html) from the original on April 17, 2019. Retrieved
+2021-03-21.
+9. "Phishing" (https://web.archive.org/web/20060830211530/http://itre.cis.upenn.edu/~myl/lang
+uagelog/archives/001477.html). Language Log, September 22, 2004. Archived from the
+original (http://itre.cis.upenn.edu/~myl/languagelog/archives/001477.html) on 2006-08-30.
+Retrieved 2021-03-21.
+10. Jøsang, Audun; et al. (2007). "Security Usability Principles for Vulnerability Analysis and
+Risk Assessment" (https://www.researchgate.net/publication/27477067). Proceedings of the
+Annual Computer Security Applications Conference 2007 (ACSAC'07). Archived (https://we
+b.archive.org/web/20210321122454/https://www.researchgate.net/publication/27477067_Se
+curity_Usability_Principles_for_Vulnerability_Analysis_and_Risk_Assessment_presented_a
+t) from the original on 2021-03-21. Retrieved 2020-11-11.
+11. Lin, Tian; Capecci, Daniel E.; Ellis, Donovan M.; Rocha, Harold A.; Dommaraju, Sandeep;
+Oliveira, Daniela S.; Ebner, Natalie C. (September 2019). "Susceptibility to Spear-Phishing
+Emails: Effects of Internet User Demographics and Email Content" (https://www.ncbi.nlm.ni
+h.gov/pmc/articles/PMC7274040). ACM Transactions on Computer-Human Interaction. 26
+(5): 32. doi:10.1145/3336141 (https://doi.org/10.1145%2F3336141). ISSN 1073-0516 (http
+s://search.worldcat.org/issn/1073-0516). PMC 7274040 (https://www.ncbi.nlm.nih.gov/pmc/a
+rticles/PMC7274040). PMID 32508486 (https://pubmed.ncbi.nlm.nih.gov/32508486).
+References
+
+12. "Email Nightmare: 94% of Firms Hit by Phishing Attacks in 2023" (https://www.infosecurity-m
+agazine.com/news/94-firms-hit-phishing-attacks-2023/). Infosecurity Magazine. 16 January
+2024. Archived (https://web.archive.org/web/20241123082602/https://www.infosecurity-mag
+azine.com/news/94-firms-hit-phishing-attacks-2023/) from the original on 2024-11-23.
+Retrieved 2024-12-08.
+13. "2019 Data Breach Investigations Report" (https://www.phishingbox.com/assets/files/image
+s/Verizon-Data-Breach-Investigations-Report-DBIR-2019.pdf) (PDF). PhishingBox. Verizon
+Communications. Retrieved 21 March 2021.
+14. Furnell, Steven; Millet, Kieran; Papadaki, Maria (July 2019). "Fifteen years of phishing: can
+technology save us?" (https://www.researchgate.net/publication/334551961). Computer
+Fraud & Security. 2019 (7): 11–16. doi:10.1016/S1361-3723(19)30074-0 (https://doi.org/10.
+1016%2FS1361-3723%2819%2930074-0). S2CID 199578115 (https://api.semanticscholar.
+org/CorpusID:199578115). Retrieved 21 March 2021.
+15. Spoofing and Phishing (https://www.fbi.gov/how-we-can-help-you/scams-and-safety/commo
+n-frauds-and-scams/spoofing-and-phishing) Federal Bureau of Investigation
+16. Waddell, Kaveh (11 February 2016). "The Black Market for Netflix Accounts" (https://www.th
+eatlantic.com/technology/archive/2016/02/the-black-market-for-netflix-accounts/462321/).
+The Atlantic. Retrieved 21 March 2021.
+17. "Spear phishing" (https://docs.microsoft.com/en-us/windows/security/threat-protection/intelli
+gence/phishing#spear-phishing). Windows IT Pro Center. Retrieved 4 March 2019 – via
+docs.microsoft.com.
+18. Stephenson, Debbie (2013-05-30). "Spear phishing: Who's getting caught?" (http://www.firm
+ex.com/blog/spear-phishing-whos-getting-caught/). Firmex.com. Archived (https://web.archiv
+e.org/web/20140811102334/http://www.firmex.com/blog/spear-phishing-whos-getting-caugh
+t/) from the original on 2014-08-11. Retrieved July 27, 2014.
+19. "NSA/GCHQ hacking gets personal: Belgian cryptographer targeted" (https://www.infosecuri
+ty-magazine.com/news/nsagchq-hacking-gets-personal-belgian/). Info Security magazine. 3
+February 2018. Retrieved 10 September 2018.
+20. Leyden, John (4 April 2011). "RSA explains how attackers breached its systems" (https://ww
+w.theregister.co.uk/2011/04/04/rsa_hack_howdunnit/). The Register. UK. Retrieved
+10 September 2018.
+21. Winterford, Brett (7 April 2011). "Epsilon breach used four-month-old attack" (https://www.itn
+ews.com.au/news/epsilon-breach-used-four-month-old-attack-253712). Retrieved
+10 September 2018 – via itnews.com.au.
+22. O'Leary, Daniel E. (2019). "What phishing e‑mails reveal: An exploratory analysis of
+phishing attempts using text analyzes" (https://doi.org/10.2139%2Fssrn.3427436). SSRN
+Electronic Journal. doi:10.2139/ssrn.3427436 (https://doi.org/10.2139%2Fssrn.3427436).
+ISSN 1556-5068 (https://search.worldcat.org/issn/1556-5068). S2CID 239250225 (https://ap
+i.semanticscholar.org/CorpusID:239250225). SSRN 3427436 (https://papers.ssrn.com/sol3/
+papers.cfm?abstract_id=3427436).
+23. "Threat Group-4127 targets Google accounts" (https://www.secureworks.com/research/thre
+at-group-4127-targets-google-accounts). secureworks.com. 26 June 2016. Archived (https://
+web.archive.org/web/20190811223356/https://www.secureworks.com/research/threat-group
+-4127-targets-google-accounts) from the original on 2019-08-11. Retrieved 2017-10-12.
+24. Nakashima, Ellen; Harris, Shane (13 July 2018). "How the Russians hacked the DNC and
+passed its e‑mails to WikiLeaks" (https://www.washingtonpost.com/world/national-security/h
+ow-the-russians-hacked-the-dnc-and-passed-its-emails-to-wikileaks/2018/07/13/af19a828-8
+6c3-11e8-8553-a3ce89036c78_story.html?noredirect=on). The Washington Post. Archived
+(https://web.archive.org/web/20210321122509/https://www.washingtonpost.com/world/natio
+nal-security/how-the-russians-hacked-the-dnc-and-passed-its-emails-to-wikileaks/2018/07/1
+3/af19a828-86c3-11e8-8553-a3ce89036c78_story.html?noredirect=on) from the original on
+March 21, 2021. Retrieved 22 February 2019.
+
+25. Alkhalil, Z. (2021). "Phishing attacks: A recent comprehensive study and a new anatomy" (ht
+tps://doi.org/10.3389%2Ffcomp.2021.563060). Frontiers in Computer Science. 3 563060.
+doi:10.3389/fcomp.2021.563060 (https://doi.org/10.3389%2Ffcomp.2021.563060).
+26. Griffin, Slade E.; Rackley, Casey C. (2008). "Vishing". Proceedings of the 5th annual
+conference on Information security curriculum development. pp. 33–35.
+doi:10.1145/1456625.1456635 (https://doi.org/10.1145%2F1456625.1456635). ISBN 978-1-
+60558-333-4.
+27. Wang, Xinyuan; Zhang, Ruishan; Yang, Xiaohui; Jiang, Xuxian; Wijesekera, Duminda
+(2008). "Voice pharming attack and the trust of VoIP". Proceedings of the 4th international
+conference on Security and privacy in communication networks. pp. 1–11.
+doi:10.1145/1460877.1460908 (https://doi.org/10.1145%2F1460877.1460908). ISBN 978-1-
+60558-241-2. S2CID 7874236 (https://api.semanticscholar.org/CorpusID:7874236).
+28. "Phishing, Smishing, and Vishing: What's the Difference?" (https://web.archive.org/web/201
+50401122514/https://www.belvoircreditunion.org/system/files/336/original/PhishinMembers.
+pdf) (PDF). belvoircreditunion.org. August 1, 2008. Archived from the original (https://www.b
+elvoircreditunion.org/system/files/336/original/PhishinMembers.pdf) (PDF) on 2015-04-01.
+29. Vishing and smishing: The rise of social engineering fraud (https://www.bbc.co.uk/news/busi
+ness-35201188) Archived (https://web.archive.org/web/20210321122539/https://www.bbc.co
+m/news/business-35201188) 2021-03-21 at the Wayback Machine, BBC, Marie Keyworth,
+2016-01-01
+30. Steinmetz, Kevin F.; Holt, Thomas J. (2022-08-05). "Falling for Social Engineering: A
+Qualitative Analysis of Social Engineering Policy Recommendations" (http://journals.sagepu
+b.com/doi/10.1177/08944393221117501). Social Science Computer Review. 41 (2): 592–
+607. doi:10.1177/08944393221117501 (https://doi.org/10.1177%2F08944393221117501).
+ISSN 0894-4393 (https://search.worldcat.org/issn/0894-4393). S2CID 251420893 (https://ap
+i.semanticscholar.org/CorpusID:251420893).
+31. "SMS phishing article at ConsumerAffairs.com" (http://www.consumeraffairs.com/news04/20
+06/11/smishing.html). ConsumerAffairs. 8 November 2006. Archived (https://web.archive.or
+g/web/20210321122519/https://www.consumeraffairs.com/news04/2006/11/smishing.html)
+from the original on 2021-03-21. Retrieved 2020-07-29.
+32. Mishra, Sandhya; Soni, Devpriya (August 2019). "SMS Phishing and Mitigation
+Approaches". 2019 Twelfth International Conference on Contemporary Computing (IC3).
+IEEE. pp. 1–5. doi:10.1109/ic3.2019.8844920 (https://doi.org/10.1109%2Fic3.2019.884492
+0). ISBN 978-1-7281-3591-5. S2CID 202700726 (https://api.semanticscholar.org/CorpusID:
+202700726).
+33. "What is Smishing?" (https://us.norton.com/internetsecurity-emerging-threats-what-is-smishi
+ng.html). Symantec Corporation. Retrieved 18 October 2018.
+34. "What Is a Watering Hole Attack?" (https://www.fortinet.com/resources/cyberglossary/wateri
+ng-hole-attack). Fortinet. Retrieved 2024-07-18.
+35. Stacey, Stephanie (2024-10-27). "Banks and regulators warn of rise in 'quishing' QR code
+scams" (https://www.ft.com/content/8aca741e-6448-4511-a54d-64f3a97747b1). Financial
+Times. The Financial Times Ltd. Retrieved 2024-11-05. "Banks and regulators are warning
+that QR code phishing scams — also known as "quishing" — are slipping through corporate
+cyber defences and increasingly tricking customers into giving up their financial details."
+36. Lipson, Faye (2024-02-19). "5 Scams You Need to Know About in 2024" (https://www.which.
+co.uk/news/article/5-scams-you-need-to-know-about-in-2024-ahSpn1K1QAE9). Which?.
+Retrieved 2024-11-05.
+37. Morris, Joanna (2023-11-18). "Thornaby: Woman targeted in £13k railway station QR code
+scam" (https://www.bbc.co.uk/news/uk-england-tees-67335952). BBC News. Retrieved
+2024-11-05. "Fraudsters are thought to have covered a genuine code with one of their own
+in Thornaby Station's car park."
+
+38. C, David (2024-03-11). "QR Codes - what's the real risk?" (https://www.ncsc.gov.uk/blog-po
+st/qr-codes-whats-real-risk). The National Cyber Security Centre. Retrieved 2024-11-05.
+"...but this type of scam is relatively small compared to other types of cyber fraud."
+39. https://bolster.ai/blog/man-in-the-middle-phishing Understanding Man-in-the-Middle
+Phishing: A Deep Dive into Evilginx
+40. "Get smart on Phishing! Learn to read links!" (http://www.bustspammers.com/phishing_links.
+html). Archived (https://web.archive.org/web/20161217045719/http://www.bustspammers.co
+m/phishing_links.html) from the original on December 17, 2016. Retrieved December 11,
+2016.
+41. Cimpanu, Catalin (June 15, 2016). "Hidden JavaScript Redirect Makes Phishing Pages
+Harder to Detect" (http://news.softpedia.com/news/hidden-javascript-redirect-makes-phishin
+g-pages-harder-to-detect-505295.shtml). Softpedia News Center. Softpedia. Archived (http
+s://web.archive.org/web/20210321122516/https://news.softpedia.com/news/hidden-javascri
+pt-redirect-makes-phishing-pages-harder-to-detect-505295.shtml) from the original on
+March 21, 2021. Retrieved May 21, 2017. "Hovering links to see their true location may be a
+useless security tip in the near future if phishers get smart about their mode of operation
+and follow the example of a crook who recently managed to bypass this browser built-in
+security feature."
+42. Johanson, Eric. "The State of Homograph Attacks Rev1.1" (https://web.archive.org/web/200
+50823111335/http://www.shmoo.com/idn/homograph.txt). The Shmoo Group. Archived from
+the original (http://www.shmoo.com/idn/homograph.txt) on August 23, 2005. Retrieved
+August 11, 2005.
+43. Evgeniy Gabrilovich & Alex Gontmakher (February 2002). "The Homograph Attack" (https://
+web.archive.org/web/20191104181513/http://www.cs.technion.ac.il/~gabr/papers/homograp
+h_full.pdf) (PDF). Communications of the ACM. 45 (2): 128. doi:10.1145/503124.503156 (htt
+ps://doi.org/10.1145%2F503124.503156). S2CID 73840 (https://api.semanticscholar.org/Cor
+pusID:73840). Archived from the original (https://www.cs.technion.ac.il/~gabr/papers/homogr
+aph_full.pdf) (PDF) on 2019-11-04. Retrieved 2019-09-15.
+44. Leyden, John (August 15, 2006). "Barclays scripting SNAFU exploited by phishers" (https://
+www.theregister.co.uk/2006/08/15/barclays_phish_scam/). The Register. Archived (https://w
+eb.archive.org/web/20190613055130/https://www.theregister.co.uk/2006/08/15/barclays_phi
+sh_scam/) from the original on June 13, 2019. Retrieved August 10, 2017.
+45. Levine, Jason. "Goin' phishing with eBay" (http://q.queso.com/archives/001617). Q Daily
+News. Archived (https://web.archive.org/web/20190326095522/http://q.queso.com/archives/
+001617) from the original on March 26, 2019. Retrieved December 14, 2006.
+46. Leyden, John (December 12, 2007). "Cybercrooks lurk in shadows of big-name websites" (h
+ttps://www.theregister.co.uk/2007/12/12/phishing_redirection/). The Register. Archived (http
+s://web.archive.org/web/20190623125007/https://www.theregister.co.uk/2007/12/12/phishin
+g_redirection/) from the original on June 23, 2019. Retrieved August 10, 2017.
+47. "Black Hat DC 2009" (http://www.thoughtcrime.org/software/sslstrip/.). May 15, 2011.
+Archived (https://archive.today/20150103033611/http://www.thoughtcrime.org/software/sslst
+rip/) from the original on January 3, 2015. Retrieved July 26, 2014.
+48. Cui, Xinyue; Ge, Yan; Qu, Weina; Zhang, Kan (2020). "Effects of Recipient Information and
+Urgency Cues on Phishing Detection". HCI International 2020 - Posters. Communications in
+Computer and Information Science. Vol. 1226. pp. 520–525. doi:10.1007/978-3-030-50732-
+9_67 (https://doi.org/10.1007%2F978-3-030-50732-9_67). ISBN 978-3-030-50731-2.
+S2CID 220523895 (https://api.semanticscholar.org/CorpusID:220523895).
+49. Williams, Emma J; Joinson, Adam N (2020-01-01). "Developing a measure of information
+seeking about phishing" (https://doi.org/10.1093%2Fcybsec%2Ftyaa001). Journal of
+Cybersecurity. 6 (1) tyaa001. doi:10.1093/cybsec/tyaa001 (https://doi.org/10.1093%2Fcybse
+c%2Ftyaa001). hdl:1983/7ba801b9-f6b8-4fc1-8393-de5238e76b2f (https://hdl.handle.net/19
+83%2F7ba801b9-f6b8-4fc1-8393-de5238e76b2f). ISSN 2057-2085 (https://search.worldcat.
+org/issn/2057-2085).
+
+50. Tomlinson, Kerry (27 January 2017). "Fake news can poison your computer as well as your
+mind" (http://www.archersecuritygroup.com/fake-news-can-poison-computer-well-mind/).
+archersecuritygroup.com. Archived (https://web.archive.org/web/20170202075029/http://ww
+w.archersecuritygroup.com/fake-news-can-poison-computer-well-mind/) from the original on
+2 February 2017. Retrieved 28 January 2017.
+51. "EarthLink wins $25 million lawsuit against junk e-mailer" (http://www.bizjournals.com/atlant
+a/stories/2002/07/22/story4.html?page=all). Archived (https://web.archive.org/web/20190322
+141415/https://www.bizjournals.com/atlanta/stories/2002/07/22/story4.html?page=all) from
+the original on 2019-03-22. Retrieved 2014-04-11.
+52. "Definition of PHISHING" (https://www.merriam-webster.com/dictionary/phishing). Merriam-
+Webster. Retrieved 2026-01-12.
+53. "The History of Phishing" (https://www.kaseya.com/blog/history-of-phishing/). Kaseya. 2023-
+04-04. Retrieved 2026-01-12.
+54. Goretsky, Aryeh (2025-08-15). "Understanding phishing: definition and tactics" (https://www.
+eset.com/blog/en/what-is/understanding-phishing-definition-and-tactics/). ESET. Retrieved
+2026-01-12.
+55. Langberg, Mike (September 8, 1995). "AOL Acts to Thwart Hackers" (http://simson.net/clips/
+1995/95.SJMN.AOL_Hackers.html). San Jose Mercury News. Archived (https://web.archive.
+org/web/20160429161112/http://simson.net/clips/1995/95.SJMN.AOL_Hackers.html) from
+the original on April 29, 2016. Retrieved March 14, 2012.
+56. Rekouche, Koceilah (2011). "Early Phishing". arXiv:1106.4692 (https://arxiv.org/abs/1106.46
+92) [cs.CR (https://arxiv.org/archive/cs.CR)].
+57. "Phishing" (http://www.wordspy.com/words/phishing.asp). Word Spy. Archived (https://web.a
+rchive.org/web/20141015030058/http://www.wordspy.com/words/phishing.asp) from the
+original on October 15, 2014. Retrieved September 28, 2006.
+58. "History of AOL Warez" (https://web.archive.org/web/20110406121144/http://www.rajuabju.c
+om/warezirc/historyofaolwarez.htm). Archived from the original (http://www.rajuabju.com/war
+ezirc/historyofaolwarez.htm) on April 6, 2011. Retrieved September 28, 2006.
+59. "GP4.3 – Growth and Fraud — Case #3 – Phishing" (https://financialcryptography.com/mt/ar
+chives/000609.html). Financial Cryptography. December 30, 2005. Archived (https://web.arc
+hive.org/web/20190122062718/http://financialcryptography.com/mt/archives/000609.html)
+from the original on January 22, 2019. Retrieved February 23, 2007.
+60. Sangani, Kris (September 2003). "The Battle Against Identity Theft". The Banker. 70 (9): 53–
+54.
+61. Kerstein, Paul (July 19, 2005). "How Can We Stop Phishing and Pharming Scams?" (https://
+web.archive.org/web/20080324080028/http://www.csoonline.com/talkback/071905.html).
+CSO. Archived from the original (http://www.csoonline.com/talkback/071905.html) on March
+24, 2008.
+62. "In 2005, Organized Crime Will Back Phishers" (https://web.archive.org/web/201012310215
+22/http://itmanagement.earthweb.com/secu/article.php/3451501). IT Management.
+December 23, 2004. Archived from the original (http://itmanagement.earthweb.com/secu/arti
+cle.php/3451501) on December 31, 2010.
+63. Abad, Christopher (September 2005). "The economy of phishing: A survey of the operations
+of the phishing market" (https://web.archive.org/web/20111121113128/http://firstmonday.or
+g/htbin/cgiwrap/bin/ojs/index.php/fm/article/view/1272/1192). First Monday. Archived from
+the original (http://firstmonday.org/htbin/cgiwrap/bin/ojs/index.php/fm/article/view/1272/1192)
+on 2011-11-21. Retrieved 2010-10-08.
+64. "UK phishing fraud losses double" (http://www.finextra.com/fullstory.asp?id=15013).
+Finextra. March 7, 2006. Archived (https://web.archive.org/web/20090119151413/http://ww
+w.finextra.com/fullstory.asp?id=15013) from the original on January 19, 2009. Retrieved
+May 20, 2006.
+
+65. Richardson, Tim (May 3, 2005). "Brits fall prey to phishing" (https://www.theregister.co.uk/20
+05/05/03/aol_phishing/). The Register. Archived (https://web.archive.org/web/201906100800
+15/https://www.theregister.co.uk/2005/05/03/aol_phishing/) from the original on June 10,
+2019. Retrieved August 10, 2017.
+66. Krebs, Brian (October 13, 2007). "Shadowy Russian Firm Seen as Conduit for Cybercrime"
+(https://www.washingtonpost.com/wp-dyn/content/story/2007/10/12/ST2007101202661.htm
+l?hpid=topnews). The Washington Post. Archived (https://web.archive.org/web/2019061104
+4618/http://www.washingtonpost.com/wp-dyn/content/story/2007/10/12/ST2007101202661.
+html?hpid=topnews) from the original on June 11, 2019. Retrieved September 8, 2017.
+67. "Suspicious e-Mails and Identity Theft" (https://www.irs.gov/newsroom/article/0,,id=155682,0
+0.html). Internal Revenue Service. Archived (https://web.archive.org/web/20110221081931/
+http://www.irs.gov/newsroom/article/0,,id=155682,00.html) from the original on February 21,
+2011. Retrieved July 5, 2006.
+68. Kirk, Jeremy (June 2, 2006). "Phishing Scam Takes Aim at MySpace.com" (https://web.archi
+ve.org/web/20060616110238/http://www.pcworld.com/resource/article/0%2Caid%2C12595
+6%2Cpg%2C1%2CRSS%2CRSS%2C00.asp). IDG Network. Archived from the original (htt
+p://www.pcworld.com/resource/article/0,aid,125956,pg,1,RSS,RSS,00.asp) on June 16,
+2006.
+69. McCall, Tom (December 17, 2007). "Gartner Survey Shows Phishing Attacks Escalated in
+2007; More than $3 Billion Lost to These Attacks" (https://web.archive.org/web/2012111816
+2442/http://www.gartner.com/it/page.jsp?id=565125). Gartner. Archived from the original (htt
+p://www.gartner.com/it/page.jsp?id=565125) on November 18, 2012. Retrieved
+December 20, 2007.
+70. APWG. "Phishing Activity Trends Report" (https://web.archive.org/web/20121003202708/htt
+p://apwg.org/reports/apwg_report_Q3_2009.pdf) (PDF). Archived from the original (http://ap
+wg.org/reports/apwg_report_Q3_2009.pdf) (PDF) on October 3, 2012. Retrieved
+November 4, 2013.
+71. "Anatomy of an RSA attack" (https://web.archive.org/web/20141006071018/https://blogs.rs
+a.com/anatomy-of-an-attack/). RSA.com. RSA FraudAction Research Labs. Archived from
+the original (https://blogs.rsa.com/anatomy-of-an-attack/) on October 6, 2014. Retrieved
+September 15, 2014.
+72. Drew, Christopher; Markoff, John (May 27, 2011). "Data Breach at Security Firm Linked to
+Attack on Lockheed" (https://www.nytimes.com/2011/05/28/business/28hack.html). The New
+York Times. Archived (https://web.archive.org/web/20190709053346/https://www.nytimes.co
+m/2011/05/28/business/28hack.html) from the original on July 9, 2019. Retrieved
+September 15, 2014.
+73. Keizer, Greg (2011-08-13). "Suspected Chinese spear-phishing attacks continue to hit
+Gmail users" (http://www.computerworld.com/s/article/9219155/Suspected_Chinese_spear_
+phishing_attacks_continue_to_hit_Gmail_users). Computerworld. Archived (https://web.arch
+ive.org/web/20210321122517/https://www.computerworld.com/article/2510237/suspected-c
+hinese-spear-phishing-attacks-continue-to-hit-gmail-users.html) from the original on 2021-
+03-21. Retrieved December 4, 2011.
+74. Ewing, Philip (2011-08-22). "Report: Chinese TV doc reveals cyber-mischief" (https://web.ar
+chive.org/web/20170126114336/http://www.dodbuzz.com/2011/08/22/report-chinese-tv-doc-
+reveals-cyber-mischief/). Dod Buzz. Archived from the original (http://www.dodbuzz.com/201
+1/08/22/report-chinese-tv-doc-reveals-cyber-mischief/) on January 26, 2017. Retrieved
+December 4, 2011.
+75. "Syrian hackers Use Outbrain to Target The Washington Post, Time, and CNN" (http://www.t
+heatlanticwire.com/global/2013/08/syrian-hackers-use-outbrain-target-washington-post-time
+-and-cnn/68370/) Archived (https://web.archive.org/web/20131019134758/http://www.theatla
+nticwire.com/global/2013/08/syrian-hackers-use-outbrain-target-washington-post-time-and-c
+nn/68370/) 2013-10-19 at the Wayback Machine, Philip Bump, The Atlantic Wire, 15 August
+2013. Retrieved 15 August 2013.
+
+76. O'Connell, Liz. "Report: Email phishing scam led to Target breach" (http://bringmethenews.c
+om/2014/02/12/report-email-phishing-scam-led-to-target-breach/). Bring Me the News.
+Archived (https://web.archive.org/web/20140915231011/http://bringmethenews.com/2014/0
+2/12/report-email-phishing-scam-led-to-target-breach/) from the original on September 15,
+2014. Retrieved September 15, 2014.
+77. Ausick, Paul (5 May 2014). "Target CEO Sack" (http://247wallst.com/retail/2014/05/05/target
+-ceo-sacked/). Archived (https://web.archive.org/web/20140915230857/http://247wallst.com/
+retail/2014/05/05/target-ceo-sacked/) from the original on September 15, 2014. Retrieved
+September 15, 2014.
+78. Prosecutors find that 'Fappening' celebrity nudes leak was not Apple's fault (https://techcrun
+ch.com/2016/03/15/prosecutors-find-that-fappening-celebrity-nudes-leak-was-not-apples-fau
+lt/) Archived (https://web.archive.org/web/20170818045159/https://techcrunch.com/2016/03/
+15/prosecutors-find-that-fappening-celebrity-nudes-leak-was-not-apples-fault/) 2017-08-18
+at the Wayback Machine March 15, 2016, Techcrunch
+79. "ICANN Targeted in Spear Phishing Attack | Enhanced Security Measures Implemented" (htt
+ps://www.icann.org/news/announcement-2-2014-12-16-en). icann.org. Archived (https://web.
+archive.org/web/20190807072329/https://www.icann.org/news/announcement-2-2014-12-16
+-en) from the original on 2019-08-07. Retrieved December 18, 2014.
+80. Kube, Courtney (7 August 2015). "Russia hacks Pentagon computers: NBC, citing sources"
+(https://www.cnbc.com/2015/08/06/russia-hacks-pentagon-computers-nbc-citing-sources.ht
+ml). Archived (https://web.archive.org/web/20190808014900/https://www.cnbc.com/2015/08/
+06/russia-hacks-pentagon-computers-nbc-citing-sources.html) from the original on 8 August
+2019. Retrieved 7 August 2015.
+81. Starr, Barbara (7 August 2015). "Official: Russia suspected in Joint Chiefs email server
+intrusion" (https://edition.cnn.com/2015/08/05/politics/joint-staff-email-hack-vulnerability/).
+Archived (https://web.archive.org/web/20190808014850/https://edition.cnn.com/2015/08/05/
+politics/joint-staff-email-hack-vulnerability/) from the original on 8 August 2019. Retrieved
+7 August 2015.
+82. Doctorow, Cory (August 28, 2015). "Spear phishers with suspected ties to Russian
+government spoof fake EFF domain, attack White House" (https://boingboing.net/2015/08/2
+8/spear-phishers-with-suspected.html). Boing Boing. Archived (https://web.archive.org/web/
+20190322141457/https://boingboing.net/2015/08/28/spear-phishers-with-suspected.html)
+from the original on March 22, 2019. Retrieved November 29, 2016.
+83. Quintin, Cooper (August 27, 2015). "New Spear Phishing Campaign Pretends to be EFF" (ht
+tps://www.eff.org/deeplinks/2015/08/new-spear-phishing-campaign-pretends-be-eff). EFF.
+Archived (https://web.archive.org/web/20190807075024/https://www.eff.org/deeplinks/2015/
+08/new-spear-phishing-campaign-pretends-be-eff) from the original on August 7, 2019.
+Retrieved November 29, 2016.
+84. Sanger, David E.; Corasaniti, Nick (14 June 2016). "D.N.C. Says Russian Hackers
+Penetrated Its Files, Including Dossier on Donald Trump" (https://www.nytimes.com/2016/0
+6/15/us/politics/russian-hackers-dnc-trump.html). The New York Times. Archived (https://we
+b.archive.org/web/20190725090932/https://www.nytimes.com/2016/06/15/us/politics/russian
+-hackers-dnc-trump.html) from the original on 25 July 2019. Retrieved 26 October 2016.
+85. Economist, Staff of (24 September 2016). "Bear on bear" (https://www.economist.com/news/
+united-states/21707574-whats-worse-being-attacked-russian-hacker-being-attacked-two-be
+ar-bear). Economist. Archived (https://web.archive.org/web/20170520234836/http://www.eco
+nomist.com/news/united-states/21707574-whats-worse-being-attacked-russian-hacker-bein
+g-attacked-two-bear-bear) from the original on 20 May 2017. Retrieved 25 October 2016.
+86. Hyacinth Mascarenhas (August 23, 2016). "Russian hackers 'Fancy Bear' likely breached
+Olympic drug-testing agency and DNC, experts say" (http://www.ibtimes.co.uk/russian-hack
+ers-fancy-bear-likely-breached-olympic-drug-testing-agency-dnc-experts-say-1577508).
+International Business Times. Retrieved September 13, 2016.
+
+87. "What we know about Fancy Bears hack team" (https://www.bbc.co.uk/news/newsbeat-3737
+4053). BBC News. 2016-09-15. Archived (https://web.archive.org/web/20190322141504/htt
+p://www.bbc.co.uk/newsbeat/article/37374053/what-we-know-about-fancy-bears-hack-team)
+from the original on 2019-03-22. Retrieved 17 September 2016.
+88. Gallagher, Sean (6 October 2016). "Researchers find fake data in Olympic anti-doping,
+Guccifer 2.0 Clinton dumps" (https://arstechnica.com/security/2016/10/researchers-find-fake
+-data-in-olympic-anti-doping-guccifer-2-0-clinton-dumps/). Ars Technica. Archived (https://we
+b.archive.org/web/20170714183747/https://arstechnica.com/security/2016/10/researchers-fi
+nd-fake-data-in-olympic-anti-doping-guccifer-2-0-clinton-dumps/) from the original on 14 July
+2017. Retrieved 26 October 2016.
+89. "Qatar faced 93,570 phishing attacks in first quarter of 2017" (http://www.gulf-times.com/stor
+y/547784/Qatar-faced-93-570-phishing-attacks-in-first-quart). Gulf Times (in Arabic). 2017-
+05-12. Archived (https://web.archive.org/web/20180804183817/http://www.gulf-times.com/st
+ory/547784/Qatar-faced-93-570-phishing-attacks-in-first-quart) from the original on 2018-08-
+04. Retrieved 2018-01-28.
+90. "Amazon Prime Day phishing scam spreading now!" (https://www.komando.com/happening-
+now/415020/amazon-prime-day-phishing-scam-spreading-now). The Kim Komando Show.
+Archived (https://web.archive.org/web/20190527085340/https://www.komando.com/happeni
+ng-now/415020/amazon-prime-day-phishing-scam-spreading-now) from the original on
+2019-05-27. Retrieved 2018-01-28.
+91. "Cryptocurrency Hackers Are Stealing from EOS's $4 Billion ICO Using This Sneaky Scam"
+(https://fortune.com/2018/05/31/cryptocurrency-eos-ico-scam/). Jen Wieczner. Archived (htt
+ps://web.archive.org/web/20210321122517/https://fortune.com/2018/05/31/cryptocurrency-e
+os-ico-scam/) from the original on 2021-03-21. Retrieved 2018-05-31.
+92. "Twitter Investigation Report - Department of Financial Services" (https://www.dfs.ny.gov/Twi
+tter_Report). www.dfs.ny.gov. 2020-10-14. Retrieved 2020-10-11.
+93. "Three Individuals Charged For Alleged Roles In Twitter Hack" (https://www.justice.gov/opa/
+press-release/file/1300246/download). justice.gov. Retrieved 2022-03-23.
+94. Winder, Davey. "New Darcula iMessage Attack Targets iPhone Users In 100 Countries" (http
+s://www.forbes.com/sites/daveywinder/2024/03/28/surprise-new-iphone-security-warning-for
+-imessage-users-in-100-countries/). Forbes. Retrieved 5 March 2025.
+95. "Millersmiles Home Page" (https://web.archive.org/web/20070711194757/http://www.millers
+miles.co.uk/). Oxford Information Services. Archived from the original (http://www.millersmile
+s.co.uk) on July 11, 2007. Retrieved January 3, 2010.
+96. "FraudWatch International Home Page" (http://www.fraudwatchinternational.com).
+FraudWatch International. Archived (https://web.archive.org/web/20190616015009/https://fr
+audwatchinternational.com/) from the original on June 16, 2019. Retrieved January 3, 2010.
+97. Baker, Emiley; Wade Baker; John Tedesco (2007). "Organizations Respond to Phishing:
+Exploring the Public Relations Tackle Box". Communication Research Reports. 24 (4): 327.
+doi:10.1080/08824090701624239 (https://doi.org/10.1080%2F08824090701624239).
+S2CID 144245673 (https://api.semanticscholar.org/CorpusID:144245673).
+98. Arachchilage, Nalin; Love, Steve; Scott, Michael (June 1, 2012). "Designing a Mobile Game
+to Teach Conceptual Knowledge of Avoiding 'Phishing Attacks'" (https://doi.org/10.20533%2
+Fijels.2046.4568.2012.0016). International Journal for E-Learning Security. 2 (1): 127–132.
+doi:10.20533/ijels.2046.4568.2012.0016 (https://doi.org/10.20533%2Fijels.2046.4568.2012.
+0016).
+
+99. Ponnurangam Kumaraguru; Yong Woo Rhee; Alessandro Acquisti; Lorrie Cranor; Jason
+Hong; Elizabeth Nunge (November 2006). "Protecting People from Phishing: The Design
+and Evaluation of an Embedded Training Email System" (https://web.archive.org/web/20070
+130211610/http://www.cylab.cmu.edu/files/cmucylab06017.pdf) (PDF). Technical Report
+CMU-CyLab-06-017, CyLab, Carnegie Mellon University. Archived from the original (http://w
+ww.cylab.cmu.edu/files/cmucylab06017.pdf) (PDF) on January 30, 2007. Retrieved
+November 14, 2006.
+100. Perrault, Evan K. (2017-03-23). "Using an Interactive Online Quiz to Recalibrate College
+Students' Attitudes and Behavioral Intentions About Phishing". Journal of Educational
+Computing Research. 55 (8): 1154–1167. doi:10.1177/0735633117699232 (https://doi.org/1
+0.1177%2F0735633117699232). S2CID 64269078 (https://api.semanticscholar.org/CorpusI
+D:64269078).
+101. Jampen, Daniel; Gür, Gürkan; Sutter, Thomas; Tellenbach, Bernhard (December 2020).
+"Don't click: towards an effective anti-phishing training. A comparative literature review" (http
+s://doi.org/10.1186%2Fs13673-020-00237-7). Human-centric Computing and Information
+Sciences. 10 (1): 33. doi:10.1186/s13673-020-00237-7 (https://doi.org/10.1186%2Fs13673-
+020-00237-7). hdl:11475/20346 (https://hdl.handle.net/11475%2F20346). ISSN 2192-1962
+(https://search.worldcat.org/issn/2192-1962). S2CID 221084452 (https://api.semanticschola
+r.org/CorpusID:221084452).
+102. Priestman, Ward; Anstis, Tony; Sebire, Isabel G; Sridharan, Shankar; Sebire, Neil J (2019-
+09-04). "Phishing in healthcare organisations: threats, mitigation and approaches" (https://w
+ww.ncbi.nlm.nih.gov/pmc/articles/PMC7062337). BMJ Health & Care Informatics. 26 (1)
+e100031. doi:10.1136/bmjhci-2019-100031 (https://doi.org/10.1136%2Fbmjhci-2019-10003
+1). ISSN 2632-1009 (https://search.worldcat.org/issn/2632-1009). PMC 7062337 (https://ww
+w.ncbi.nlm.nih.gov/pmc/articles/PMC7062337). PMID 31488498 (https://pubmed.ncbi.nlm.ni
+h.gov/31488498).
+103. "Protect Yourself from Fraudulent Emails" (https://web.archive.org/web/20110406114742/htt
+ps://www.paypal.com/us/cgi-bin/webscr?cmd=_vdc-security-spoof-outside). PayPal.
+Archived from the original (https://www.paypal.com/us/cgi-bin/webscr?cmd=_vdc-security-sp
+oof-outside) on April 6, 2011. Retrieved July 7, 2006.
+104. Zeltser, Lenny (March 17, 2006). "Phishing Messages May Include Highly-Personalized
+Information" (http://isc.incidents.org/diary.php?storyid=1194). The SANS Institute. Archived
+(https://web.archive.org/web/20061202232110/http://isc.incidents.org/diary.php?storyid=119
+4) from the original on December 2, 2006. Retrieved May 20, 2006.
+105. Markus Jakobsson & Jacob Ratkiewicz. "Designing Ethical Phishing Experiments" (https://ar
+chive.today/20130113163808/http://www2006.org/programme/item.php?id=3533). WWW
+'06. Archived from the original (http://www2006.org/programme/item.php?id=3533) on
+January 13, 2013. Retrieved August 20, 2007.
+106. Markus Jakobsson; Alex Tsow; Ankur Shah; Eli Blevis; Youn-kyung Lim. "What Instills Trust?
+A Qualitative Study of Phishing" (https://web.archive.org/web/20070306171850/http://www.in
+formatics.indiana.edu/markus/papers/trust_USEC.pdf) (PDF). informatics.indiana.edu.
+Archived from the original (http://www.informatics.indiana.edu/markus/papers/trust_USEC.p
+df) (PDF) on March 6, 2007.
+107. Fatima, Rubia; Yasin, Affan; Liu, Lin; Wang, Jianmin (2019-10-11). "How persuasive is a
+phishing email? A phishing game for phishing awareness" (https://www.medra.org/servlet/ali
+asResolver?alias=iospress&doi=10.3233/JCS-181253). Journal of Computer Security. 27
+(6): 581–612. doi:10.3233/JCS-181253 (https://doi.org/10.3233%2FJCS-181253).
+S2CID 204538981 (https://api.semanticscholar.org/CorpusID:204538981).
+108. "APWG Phishing Attack Trends Reports" (https://www.antiphishing.org/resources/apwg-repo
+rts/). APWG. Archived (https://web.archive.org/web/20210321122513/https://www.antiphishi
+ng.org/trendsreports/) from the original on 21 March 2021. Retrieved 12 September 2018.
+
+109. Olivo, Cleber K.; Santin, Altair O.; Oliveira, Luiz S. (July 2011). "Obtaining the Threat Model
+for E-mail Phishing". Applied Soft Computing. 13 (12): 4841–4848.
+doi:10.1016/j.asoc.2011.06.016 (https://doi.org/10.1016%2Fj.asoc.2011.06.016).
+110. Madhusudhanan Chandrasekaran; Krishnan Narayanan; Shambhu Upadhyaya (March
+2006). "Phishing E-mail Detection Based on Structural Properties" (https://web.archive.org/
+web/20080216101637/http://www.albany.edu/iasymposium/2006/chandrasekaran.pdf)
+(PDF). NYS Cyber Security Symposium. Archived from the original (http://www.albany.edu/ia
+symposium/2006/chandrasekaran.pdf) (PDF) on February 16, 2008.
+111. Ian Fette; Norman Sadeh; Anthony Tomasic (June 2006). "Learning to Detect Phishing
+Emails" (http://reports-archive.adm.cs.cmu.edu/anon/isri2006/CMU-ISRI-06-112.pdf) (PDF).
+Carnegie Mellon University Technical Report CMU-ISRI-06-112. Archived (https://web.archiv
+e.org/web/20180619230609/http://reports-archive.adm.cs.cmu.edu/anon/isri2006/CMU-ISRI
+-06-112.pdf) (PDF) from the original on 2018-06-19. Retrieved 2006-11-30.
+112. "Landing another blow against email phishing (Google Online Security Blog)" (http://googleo
+nlinesecurity.blogspot.jp/2012/01/landing-another-blow-against-email.html). Archived (http
+s://web.archive.org/web/20120606063119/http://googleonlinesecurity.blogspot.jp/2012/01/la
+nding-another-blow-against-email.html) from the original on June 6, 2012. Retrieved
+June 21, 2012.
+113. "Google Safe Browsing" (https://www.google.com/safebrowsing/static/faq.html). Archived (ht
+tps://web.archive.org/web/20170901031928/http://www.google.com/safebrowsing/static/faq.
+html) from the original on 2017-09-01. Retrieved 2017-11-30.
+114. "Safe Browsing (Google Online Security Blog)" (http://googleonlinesecurity.blogspot.jp/2012/
+06/safe-browsing-protecting-web-users-for.html). Archived (https://web.archive.org/web/201
+60305144600/https://googleonlinesecurity.blogspot.jp/2012/06/safe-browsing-protecting-we
+b-users-for.html) from the original on March 5, 2016. Retrieved June 21, 2012.
+115. Franco, Rob (November 21, 2005). "Better Website Identification and Extended Validation
+Certificates in IE7 and Other Browsers" (https://docs.microsoft.com/en-us/archive/blogs/ie/b
+etter-website-identification-and-extended-validation-certificates-in-ie7-and-other-browsers).
+IEBlog. Archived (https://web.archive.org/web/20100125235945/http://blogs.msdn.com/ie/ar
+chive/2005/11/21/495507.aspx) from the original on January 25, 2010. Retrieved Feb 10,
+2020.
+116. "Bon Echo Anti-Phishing" (https://www.mozilla.org/projects/bonecho/anti-phishing/). Mozilla.
+Archived (https://web.archive.org/web/20060924074349/http://www.mozilla.org/projects/bon
+echo/anti-phishing/) from the original on September 24, 2006. Retrieved June 2, 2006.
+117. "Safari 3.2 finally gains phishing protection" (https://arstechnica.com/journals/apple.ars/200
+8/11/13/safari-3-2-finally-gains-phishing-protection). Ars Technica. November 13, 2008.
+Archived (https://web.archive.org/web/20090209070213/http://arstechnica.com/journals/appl
+e.ars/2008/11/13/safari-3-2-finally-gains-phishing-protection) from the original on February
+9, 2009. Retrieved November 15, 2008.
+118. "Gone Phishing: Evaluating Anti-Phishing Tools for Windows" (http://www.3sharp.com/projec
+ts/antiphish/index.htm). 3Sharp. September 27, 2006. Retrieved October 20, 2006. {{cite
+news}}: |archive-url= is malformed: timestamp (help)
+119. "Two Things That Bother Me About Google's New Firefox Extension" (http://www.oreillynet.c
+om/onlamp/blog/2005/12/two_things_that_bother_me_abou.html). Nitesh Dhanjani on
+O'Reilly ONLamp. Archived (https://web.archive.org/web/20140722074439/http://www.oreilly
+net.com/onlamp/blog/2005/12/two_things_that_bother_me_abou.html) from the original on
+July 22, 2014. Retrieved July 1, 2007.
+120. "Firefox 2 Phishing Protection Effectiveness Testing" (https://www.mozilla.org/security/phishi
+ng-test.html). Archived (https://web.archive.org/web/20110123135138/http://www.mozilla.or
+g/security/phishing-test.html) from the original on January 23, 2011. Retrieved January 23,
+2007.
+
+121. Higgins, Kelly Jackson. "DNS Gets Anti-Phishing Hook" (http://www.darkreading.com/docum
+ent.asp?doc_id=99089&WT.svl=news1_1). Dark Reading. Retrieved October 8, 2006.
+{{cite web}}: |archive-url= is malformed: timestamp (help)
+122. Krebs, Brian (August 31, 2006). "Using Images to Fight Phishing" (https://web.archive.org/w
+eb/20061116184842/http://blog.washingtonpost.com/securityfix/2006/08/using_images_to_fi
+ght_phishing.html). Security Fix. Archived from the original (http://blog.washingtonpost.com/
+securityfix/2006/08/using_images_to_fight_phishing.html) on November 16, 2006.
+123. Seltzer, Larry (August 2, 2004). "Spotting Phish and Phighting Back" (http://www.eweek.co
+m/article2/0,1759,1630161,00.asp). eWeek. Archived (http://webarchive.loc.gov/all/2019070
+5083348/https://www.eweek.com/mobile/hp%2Dtouchpad%2Dneeds%2D6%2Dto%2D8%2
+Dweeks%2Dfor%2Dadditional%2Dshipments) from the original on July 5, 2019. Retrieved
+December 14, 2006.
+124. Bank of America. "How Bank of America SiteKey Works For Online Banking Security" (http://
+www.bankofamerica.com/). Archived (https://web.archive.org/web/20090620014808/http://w
+ww.bankofamerica.com/privacy/sitekey/) from the original on June 20, 2009. Retrieved
+January 23, 2007.
+125. Brubaker, Bill (July 14, 2005). "Bank of America Personalizes Cyber-Security" (https://www.
+washingtonpost.com/wp-dyn/content/article/2005/07/13/AR2005071302181.html). The
+Washington Post. Archived (https://web.archive.org/web/20190608223403/http://www.washi
+ngtonpost.com/wp-dyn/content/article/2005/07/13/AR2005071302181.html) from the original
+on June 8, 2019. Retrieved September 8, 2017.
+126. Stone, Brad (February 5, 2007). "Study Finds Web Antifraud Measure Ineffective" (https://w
+ww.nytimes.com/2007/02/05/technology/05secure.html?ex=1328331600&en=295ec5d0994
+b0755&ei=5090&partner=rssuserland&emc=rss). The New York Times. Archived (https://we
+b.archive.org/web/20190611001932/https://www.nytimes.com/2007/02/05/technology/05sec
+ure.html?ex=1328331600&en=295ec5d0994b0755&ei=5090&partner=rssuserland&emc=rs
+s) from the original on June 11, 2019. Retrieved February 5, 2007.
+127. Stuart Schechter; Rachna Dhamija; Andy Ozment; Ian Fischer (May 2007). "The Emperor's
+New Security Indicators: An evaluation of website authentication and the effect of role
+playing on usability studies" (https://web.archive.org/web/20080720092117/http://www.deas.
+harvard.edu/~rachna/papers/emperor-security-indicators-bank-sitekey-phishing-study.pdf)
+(PDF). IEEE Symposium on Security and Privacy, May 2007. Archived from the original (htt
+p://www.deas.harvard.edu/~rachna/papers/emperor-security-indicators-bank-sitekey-phishin
+g-study.pdf) (PDF) on July 20, 2008. Retrieved February 5, 2007.
+128. "Phishers target Nordea's one-time password system" (http://www.finextra.com/fullstory.as
+p?id=14384). Finextra. October 12, 2005. Archived (https://web.archive.org/web/200512182
+00921/http://www.finextra.com/fullstory.asp?id=14384) from the original on December 18,
+2005. Retrieved December 20, 2005.
+129. Krebs, Brian (July 10, 2006). "Citibank Phish Spoofs 2-Factor Authentication" (https://web.ar
+chive.org/web/20061110132337/http://blog.washingtonpost.com/securityfix/2006/07/citibank
+_phish_spoofs_2factor_1.html). Security Fix. Archived from the original (http://blog.washingt
+onpost.com/securityfix/2006/07/citibank_phish_spoofs_2factor_1.html) on November 10,
+2006.
+130. Graham Titterington. "More doom on phishing" (https://web.archive.org/web/200804100727
+44/http://www.ovum.com/news/euronews.asp?id=4166). Ovum Research, April 2006.
+Archived from the original (http://www.ovum.com/news/euronews.asp?id=4166) on 2008-04-
+10. Retrieved 2009-04-08.
+131. Schneier, Bruce (July 2005). "Security Skins" (http://www.schneier.com/blog/archives/2005/0
+7/security_skins.html). Schneier on Security. Retrieved December 3, 2006.
+
+132. Rachna Dhamija; J.D. Tygar (July 2005). "The Battle Against Phishing: Dynamic Security
+Skins" (https://web.archive.org/web/20070629113158/http://people.deas.harvard.edu/~rach
+na/papers/securityskins.pdf) (PDF). Symposium On Usable Privacy and Security (SOUPS)
+2005. Archived from the original (http://people.deas.harvard.edu/~rachna/papers/securityski
+ns.pdf) (PDF) on June 29, 2007. Retrieved February 5, 2007.
+133. "Dynamic, Mutual Authentication Technology for Anti-Phishing" (http://www.confidenttechnol
+ogies.com/products/anti-phishing). Confidenttechnologies.com. Retrieved September 9,
+2012.
+134. "Anti-Phishing Working Group: Vendor Solutions" (https://web.archive.org/web/2011012109
+1533/http://www.antiphishing.org/solutions.html#takedown). Anti-Phishing Working Group.
+Archived from the original (http://www.antiphishing.org/solutions.html#takedown) on January
+21, 2011. Retrieved July 6, 2006.
+135. Xiang, Guang; Hong, Jason; Rose, Carolyn P.; Cranor, Lorrie (2011-09-01). "CANTINA+: A
+Feature-Rich Machine Learning Framework for Detecting Phishing Web Sites". ACM
+Transactions on Information and System Security. 14 (2): 21:1–21:28.
+doi:10.1145/2019599.2019606 (https://doi.org/10.1145%2F2019599.2019606). ISSN 1094-
+9224 (https://search.worldcat.org/issn/1094-9224). S2CID 6246617 (https://api.semanticsch
+olar.org/CorpusID:6246617).
+136. Leite, Cristoffer; Gondim, Joao J. C.; Barreto, Priscila Solis; Alchieri, Eduardo A. (2019).
+"Waste Flooding: A Phishing Retaliation Tool". 2019 IEEE 18th International Symposium on
+Network Computing and Applications (NCA). Cambridge, MA, USA: IEEE. pp. 1–8.
+doi:10.1109/NCA.2019.8935018 (https://doi.org/10.1109%2FNCA.2019.8935018).
+ISBN 978-1-7281-2522-0. S2CID 209457656 (https://api.semanticscholar.org/CorpusID:209
+457656).
+137. McMillan, Robert (March 28, 2006). "New sites let users find and report phishing" (https://we
+b.archive.org/web/20090119153501/http://www.linuxworld.com.au/index.php/id;107540657
+5;fp;2;fpid;1.). LinuxWorld. Archived from the original (http://www.linuxworld.com.au/index.ph
+p/id;1075406575;fp;2;fpid;1.) on January 19, 2009.
+138. Schneier, Bruce (October 5, 2006). "PhishTank" (http://www.schneier.com/blog/archives/200
+6/10/phishtank.html). Schneier on Security. Archived (https://web.archive.org/web/20110109
+095346/http://www.schneier.com/blog/archives/2006/10/phishtank.html) from the original on
+January 9, 2011. Retrieved December 7, 2007.
+139. "Report a Phishing Page" (https://safebrowsing.google.com/safebrowsing/report_phish/?hl=
+en). Archived (https://web.archive.org/web/20161019083146/https://www.google.com/safebr
+owsing/report_phish/) from the original on 2016-10-19. Retrieved 2019-09-13.
+140. How to report phishing scams to Google (http://consumerscams.org/scam_safety_tips/how_
+to_report_phishing_scam) Archived (https://archive.today/20130414135047/http://consumer
+scams.org/scam_safety_tips/how_to_report_phishing_scam) 2013-04-14 at archive.today
+Consumer Scams.org
+141. Kan, Michael (7 March 2019). "Google: Phishing Attacks That Can Beat Two-Factor Are on
+the Rise" (https://www.pcmag.com/news/367026/google-phishing-attacks-that-can-beat-two-
+factor-are-on-the). PC Magazine. Archived (https://web.archive.org/web/20190308035745/ht
+tps://www.pcmag.com/news/367026/google-phishing-attacks-that-can-beat-two-factor-are-o
+n-the) from the original on 8 March 2019. Retrieved 9 September 2019.
+142. Legon, Jeordan (January 26, 2004). "Phishing scams reel in your identity" (https://web.archi
+ve.org/web/20181106140456/http://www.cnn.com/2003/TECH/internet/07/21/phishing.scam/
+index.html). CNN. Archived from the original (http://www.cnn.com/2003/TECH/internet/07/2
+1/phishing.scam/index.html) on November 6, 2018. Retrieved April 8, 2006.
+143. Leyden, John (March 21, 2005). "Brazilian cops net 'phishing kingpin'" (http://www.channelr
+egister.co.uk/2005/03/21/brazil_phishing_arrest/). The Register. Archived (https://web.archiv
+e.org/web/20160417102034/http://www.channelregister.co.uk/2005/03/21/brazil_phishing_ar
+rest/) from the original on April 17, 2016. Retrieved August 19, 2005.
+
+144. Roberts, Paul (June 27, 2005). "UK Phishers Caught, Packed Away" (http://www.eweek.co
+m/article2/0%2C1895%2C1831960%2C00.asp). eWEEK. Archived (http://webarchive.loc.go
+v/all/20190705083348/https://www.eweek.com/mobile/hp%2Dtouchpad%2Dneeds%2D6%2
+Dto%2D8%2Dweeks%2Dfor%2Dadditional%2Dshipments) from the original on July 5,
+2019. Retrieved September 3, 2005.
+145. "Nineteen Individuals Indicted in Internet 'Carding' Conspiracy" (https://www.justice.gov/archi
+ve/opa/pr/2004/October/04_crm_726.htm). justice.gov. Archived (https://web.archive.org/we
+b/20190322141547/https://www.justice.gov/archive/opa/pr/2004/October/04_crm_726.htm)
+from the original on March 22, 2019. Retrieved October 13, 2015.
+146. "8 held over suspected phishing fraud". Yomiuri Shimbun. May 31, 2006.
+147. "Phishing gang arrested in USA and Eastern Europe after FBI investigation" (https://web.arc
+hive.org/web/20110406103408/http://www.sophos.com/pressoffice/news/articles/2006/11/ph
+ishing-arrests.html). Archived from the original (https://www.sophos.com/pressoffice/news/ar
+ticles/2006/11/phishing-arrests.html) on April 6, 2011. Retrieved December 14, 2006.
+148. "Phishers Would Face 5 Years Under New Bill" (http://informationweek.com/story/showArticl
+e.jhtml?articleID=60404811). InformationWeek. March 2, 2005. Archived (https://web.archiv
+e.org/web/20080219014610/http://informationweek.com/story/showArticle.jhtml?articleID=60
+404811) from the original on February 19, 2008. Retrieved March 4, 2005.
+149. "Fraud Act 2006" (http://www.opsi.gov.uk/ACTS/en2006/2006en35.htm). Archived (https://we
+b.archive.org/web/20071027090223/http://www.opsi.gov.uk/acts/en2006/2006en35.htm)
+from the original on October 27, 2007. Retrieved December 14, 2006.
+150. "Prison terms for phishing fraudsters" (https://www.theregister.co.uk/2006/11/14/fraud_act_o
+utlaws_phishing/). The Register. November 14, 2006. Archived (https://web.archive.org/web/
+20190621030934/https://www.theregister.co.uk/2006/11/14/fraud_act_outlaws_phishing/)
+from the original on June 21, 2019. Retrieved August 10, 2017.
+151. "Microsoft Partners with Australian Law Enforcement Agencies to Combat Cyber Crime" (htt
+ps://web.archive.org/web/20051103190357/http://www.microsoft.com/australia/presspass/ne
+ws/pressreleases/cybercrime_31_3_05.aspx). Microsoft. Archived from the original (http://w
+ww.microsoft.com/australia/presspass/news/pressreleases/cybercrime_31_3_05.aspx) on
+November 3, 2005. Retrieved August 24, 2005.
+152. Espiner, Tom (March 20, 2006). "Microsoft launches legal assault on phishers" (https://web.a
+rchive.org/web/20080829220010/http://news.zdnet.co.uk/0,39020330,39258528,00.htm).
+ZDNet. Archived from the original (http://news.zdnet.co.uk/0,39020330,39258528,00.htm)
+on August 29, 2008. Retrieved May 20, 2006.
+153. Leyden, John (November 23, 2006). "MS reels in a few stray phish" (https://www.theregister.
+co.uk/2006/11/23/ms_anti-phishing_campaign_update/). The Register. Archived (https://we
+b.archive.org/web/20190610090011/https://www.theregister.co.uk/2006/11/23/ms_anti-phish
+ing_campaign_update/) from the original on June 10, 2019. Retrieved August 10, 2017.
+154. "A History of Leadership – 2006" (https://web.archive.org/web/20070522231137/http://www.
+corp.aol.com/whoweare/history/2006.shtml). Archived from the original (http://corp.aol.com/
+whoweare/history/2006.shtml) on May 22, 2007.
+155. "AOL Takes Fight Against Identity Theft To Court, Files Lawsuits Against Three Major
+Phishing Gangs" (https://web.archive.org/web/20070131204118/http://media.aoltimewarner.
+com/media/newmedia/cb_press_view.cfm?release_num=55254535). Archived from the
+original (http://media.aoltimewarner.com/media/newmedia/cb_press_view.cfm?release_num
+=55254535) on January 31, 2007. Retrieved March 8, 2006.
+156. "HB 2471 Computer Crimes Act; changes in provisions, penalty" (https://web.archive.org/we
+b/20210322061909/http://leg1.state.va.us/cgi-bin/legp504.exe?051+sum+HB2471).
+Archived from the original (http://leg1.state.va.us/cgi-bin/legp504.exe?051+sum+HB2471)
+on March 22, 2021. Retrieved March 8, 2006.
+
+157. Brulliard, Karin (April 10, 2005). "Va. Lawmakers Aim to Hook Cyberscammers" (https://ww
+w.washingtonpost.com/wp-dyn/articles/A40578-2005Apr9.html). The Washington Post.
+Archived (https://web.archive.org/web/20190611044615/http://www.washingtonpost.com/wp
+-dyn/articles/A40578-2005Apr9.html) from the original on June 11, 2019. Retrieved
+September 8, 2017.
+158. "Earthlink evidence helps slam the door on phisher site spam ring" (https://web.archive.org/
+web/20070705211932/http://www.earthlink.net/about/press/pr_phishersite/). Archived from
+the original (https://www.earthlink.net/about/press/pr_phishersite/) on July 5, 2007.
+Retrieved December 14, 2006.
+159. Prince, Brian (January 18, 2007). "Man Found Guilty of Targeting AOL Customers in
+Phishing Scam" (https://www.pcmag.com/article2/0,1895,2085183,00.asp). PC Magazine.
+Archived (https://web.archive.org/web/20090321200725/http://www.pcmag.com/article2/0,18
+95,2085183,00.asp) from the original on March 21, 2009. Retrieved September 8, 2017.
+160. Leyden, John (January 17, 2007). "AOL phishing fraudster found guilty" (https://www.theregi
+ster.co.uk/2007/01/17/aol_phishing_fraudster/). The Register. Archived (https://web.archive.
+org/web/20190322143557/https://www.theregister.co.uk/2007/01/17/aol_phishing_fraudste
+r/) from the original on March 22, 2019. Retrieved August 10, 2017.
+161. Leyden, John (June 13, 2007). "AOL phisher nets six years' imprisonment" (https://www.ther
+egister.co.uk/2007/06/13/aol_fraudster_jailed/). The Register. Archived (https://web.archive.
+org/web/20190611165732/https://www.theregister.co.uk/2007/06/13/aol_fraudster_jailed/)
+from the original on June 11, 2019. Retrieved August 10, 2017.
+162. Gaudin, Sharon (June 12, 2007). "California Man Gets 6-Year Sentence For Phishing" (htt
+p://www.informationweek.com/story/showArticle.jhtml?articleID=199903450).
+InformationWeek. Archived (https://web.archive.org/web/20071011103307/http://information
+week.com/story/showArticle.jhtml?articleID=199903450) from the original on October 11,
+2007. Retrieved July 1, 2007.
+Anti-Phishing Working Group (https://apwg.org/)
+Center for Identity Management and Information Protection (http://www.utica.edu/academic/i
+nstitutes/cimip/) – Utica College
+Plugging the "phishing" hole: legislation versus technology (http://www.law.duke.edu/journal
+s/dltr/articles/2005dltr0006.html) (Archived (https://web.archive.org/web/20051228230612/ht
+tp://www.law.duke.edu/journals/dltr/articles/2005dltr0006.html) 2005-12-28 at the Wayback
+Machine) – Duke Law & Technology Review
+Example of a Phishing Attempt with Screenshots and Explanations (https://www.strategicrev
+enue.com/this-amex-phishing-scam-wants-you-homeless-poor-with-zero-fico-score/) –
+StrategicRevenue.com
+A Profitless Endeavor: Phishing as Tragedy of the Commons (https://www.microsoft.com/en-
+us/research/wp-content/uploads/2008/09/PhishingAsTragedy.pdf) – Microsoft Corporation
+Database for information on phishing sites reported by the public (https://www.phishtank.co
+m/) – PhishTank
+The Impact of Incentives on Notice and Take-down (https://www.cl.cam.ac.uk/~rnc1/takedow
+n.pdf) − Computer Laboratory, University of Cambridge (PDF, 344 kB)
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Phishing&oldid=1332631413"
+External links
